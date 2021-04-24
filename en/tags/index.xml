@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Hugo Zzo Theme</title>
-    <link>http://embeddedart.in/en/tags/</link>
+    <link>/en/tags/</link>
     <description>Recent content in Tags on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 25 Jan 2020 06:40:51 +0900</lastBuildDate>
     
-        <atom:link href="http://embeddedart.in/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>shortcode</title>
-        <link>http://embeddedart.in/en/tags/shortcode/</link>
+        <link>/en/tags/shortcode/</link>
         <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/shortcode/</guid>
+        <guid>/en/tags/shortcode/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>css</title>
-        <link>http://embeddedart.in/en/tags/css/</link>
+        <link>/en/tags/css/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/css/</guid>
+        <guid>/en/tags/css/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>html</title>
-        <link>http://embeddedart.in/en/tags/html/</link>
+        <link>/en/tags/html/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/html/</guid>
+        <guid>/en/tags/html/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>markdown</title>
-        <link>http://embeddedart.in/en/tags/markdown/</link>
+        <link>/en/tags/markdown/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/markdown/</guid>
+        <guid>/en/tags/markdown/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>themes</title>
-        <link>http://embeddedart.in/en/tags/themes/</link>
+        <link>/en/tags/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/themes/</guid>
+        <guid>/en/tags/themes/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -112,11 +112,11 @@
       
       <item>
         <title>privacy</title>
-        <link>http://embeddedart.in/en/tags/privacy/</link>
+        <link>/en/tags/privacy/</link>
         <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/privacy/</guid>
+        <guid>/en/tags/privacy/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -130,11 +130,11 @@
       
       <item>
         <title>shortcodes</title>
-        <link>http://embeddedart.in/en/tags/shortcodes/</link>
+        <link>/en/tags/shortcodes/</link>
         <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/shortcodes/</guid>
+        <guid>/en/tags/shortcodes/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -148,11 +148,11 @@
       
       <item>
         <title>hugo</title>
-        <link>http://embeddedart.in/en/tags/hugo/</link>
+        <link>/en/tags/hugo/</link>
         <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/hugo/</guid>
+        <guid>/en/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -166,11 +166,11 @@
       
       <item>
         <title>amoji</title>
-        <link>http://embeddedart.in/en/tags/amoji/</link>
+        <link>/en/tags/amoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/amoji/</guid>
+        <guid>/en/tags/amoji/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -184,11 +184,11 @@
       
       <item>
         <title>bamoji</title>
-        <link>http://embeddedart.in/en/tags/bamoji/</link>
+        <link>/en/tags/bamoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/bamoji/</guid>
+        <guid>/en/tags/bamoji/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -202,11 +202,11 @@
       
       <item>
         <title>emoji</title>
-        <link>http://embeddedart.in/en/tags/emoji/</link>
+        <link>/en/tags/emoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/emoji/</guid>
+        <guid>/en/tags/emoji/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -220,11 +220,11 @@
       
       <item>
         <title>gamoji</title>
-        <link>http://embeddedart.in/en/tags/gamoji/</link>
+        <link>/en/tags/gamoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/gamoji/</guid>
+        <guid>/en/tags/gamoji/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -238,11 +238,11 @@
       
       <item>
         <title>namoji</title>
-        <link>http://embeddedart.in/en/tags/namoji/</link>
+        <link>/en/tags/namoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/namoji/</guid>
+        <guid>/en/tags/namoji/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -256,11 +256,11 @@
       
       <item>
         <title>diagram</title>
-        <link>http://embeddedart.in/en/tags/diagram/</link>
+        <link>/en/tags/diagram/</link>
         <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/diagram/</guid>
+        <guid>/en/tags/diagram/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -274,11 +274,11 @@
       
       <item>
         <title>index</title>
-        <link>http://embeddedart.in/en/tags/index/</link>
+        <link>/en/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>http://embeddedart.in/en/tags/index/</guid>
+        <guid>/en/tags/index/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

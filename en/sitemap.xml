@@ -2,232 +2,232 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://embeddedart.in/en/showcase/hugo/hugo-theme-zzo/</loc>
+    <loc>/en/showcase/hugo/hugo-theme-zzo/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/showcase/hugo/hugo-theme-zdoc/</loc>
+    <loc>/en/showcase/hugo/hugo-theme-zdoc/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/</loc>
+    <loc>/en/</loc>
     <lastmod>2021-04-24T19:17:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/"
+                href="/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/"
+                href="/en/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <lastmod>2021-04-24T19:17:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/categories/"
+                href="/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/categories/"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/en/categories/gsm/</loc>
+    <loc>/en/categories/gsm/</loc>
     <lastmod>2021-04-24T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/gsm-at-command-2g/</loc>
+    <loc>/en/posts/gsm-at-command-2g/</loc>
     <lastmod>2021-04-24T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/</loc>
+    <loc>/en/posts/</loc>
     <lastmod>2021-04-24T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/about/</loc>
+    <loc>/en/about/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/article/</loc>
+    <loc>/en/publication/article/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/book/</loc>
+    <loc>/en/publication/book/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/misc/</loc>
+    <loc>/en/publication/misc/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/</loc>
+    <loc>/en/publication/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/shortcode/</loc>
+    <loc>/en/tags/shortcode/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/shortcodes/</loc>
+    <loc>/en/posts/shortcodes/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/</loc>
+    <loc>/en/tags/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/tags/"
+                href="/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/tags/"
+                href="/en/tags/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/en/showcase/hugo/</loc>
+    <loc>/en/showcase/hugo/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/showcase/</loc>
+    <loc>/en/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/css/</loc>
+    <loc>/en/tags/css/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/html/</loc>
+    <loc>/en/tags/html/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/markdown/</loc>
+    <loc>/en/tags/markdown/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/markdown-syntax/</loc>
+    <loc>/en/posts/markdown-syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/series/</loc>
+    <loc>/en/series/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/series/"
+                href="/ko/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/series/"
+                href="/en/series/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/en/categories/syntax/</loc>
+    <loc>/en/categories/syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/themes/</loc>
+    <loc>/en/tags/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/categories/themes/</loc>
+    <loc>/en/categories/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/series/themes-guide/</loc>
+    <loc>/en/series/themes-guide/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/privacy/</loc>
+    <loc>/en/tags/privacy/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/rich-content/</loc>
+    <loc>/en/posts/rich-content/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/shortcodes/</loc>
+    <loc>/en/tags/shortcodes/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/hugo/</loc>
+    <loc>/en/tags/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/categories/hugo/</loc>
+    <loc>/en/categories/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/syntax-highlight/</loc>
+    <loc>/en/posts/syntax-highlight/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/math-typesetting/</loc>
+    <loc>/en/posts/math-typesetting/</loc>
     <lastmod>2019-12-17T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/amoji/</loc>
+    <loc>/en/tags/amoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/bamoji/</loc>
+    <loc>/en/tags/bamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/emoji/</loc>
+    <loc>/en/tags/emoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/emoji-support/</loc>
+    <loc>/en/posts/emoji-support/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/gamoji/</loc>
+    <loc>/en/tags/gamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/namoji/</loc>
+    <loc>/en/tags/namoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/categories/diagram/</loc>
+    <loc>/en/categories/diagram/</loc>
     <lastmod>2019-11-18T21:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-viz/</loc>
+    <loc>/en/posts/test-viz/</loc>
     <lastmod>2019-11-18T21:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-wavedrom/</loc>
+    <loc>/en/posts/test-wavedrom/</loc>
     <lastmod>2019-11-18T18:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-chartjs/</loc>
+    <loc>/en/posts/test-chartjs/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-js-sequence-diagrams/</loc>
+    <loc>/en/posts/test-js-sequence-diagrams/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/diagram/</loc>
+    <loc>/en/tags/diagram/</loc>
     <lastmod>2019-11-17T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-mermaid/</loc>
+    <loc>/en/posts/test-mermaid/</loc>
     <lastmod>2019-11-17T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/categories/math/</loc>
+    <loc>/en/categories/math/</loc>
     <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-mathjax/</loc>
+    <loc>/en/posts/test-mathjax/</loc>
     <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-katex/</loc>
+    <loc>/en/posts/test-katex/</loc>
     <lastmod>2019-11-15T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/posts/test-flowchart/</loc>
+    <loc>/en/posts/test-flowchart/</loc>
     <lastmod>2019-11-14T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/gallery/</loc>
+    <loc>/en/gallery/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/gallery/photo/</loc>
+    <loc>/en/gallery/photo/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/gallery/products/</loc>
+    <loc>/en/gallery/products/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/presentation/dir/fourth/</loc>
+    <loc>/en/presentation/dir/fourth/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/presentation/</loc>
+    <loc>/en/presentation/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/presentation/third/</loc>
+    <loc>/en/presentation/third/</loc>
     <lastmod>2019-10-30T20:46:30+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/presentation/second/</loc>
+    <loc>/en/presentation/second/</loc>
     <lastmod>2019-10-30T20:45:24+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/presentation/first/</loc>
+    <loc>/en/presentation/first/</loc>
     <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/archive/</loc>
+    <loc>/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/article/article_any_folder_name_1/</loc>
+    <loc>/en/publication/article/article_any_folder_name_1/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/book/book_any_folder_name_1/</loc>
+    <loc>/en/publication/book/book_any_folder_name_1/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/publication/misc/misc_any_folder_name_1/</loc>
+    <loc>/en/publication/misc/misc_any_folder_name_1/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://embeddedart.in/en/tags/index/</loc>
+    <loc>/en/tags/index/</loc>
   </url>
 </urlset>

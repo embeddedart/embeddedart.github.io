@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Galleries on Hugo Zzo Theme</title>
-    <link>http://embeddedart.in/en/gallery/</link>
+    <link>/en/gallery/</link>
     <description>Recent content in Galleries on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 31 Oct 2019 10:20:16 +0900</lastBuildDate>
     
-        <atom:link href="http://embeddedart.in/en/gallery/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/en/gallery/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Photo</title>
-        <link>http://embeddedart.in/en/gallery/photo/</link>
+        <link>/en/gallery/photo/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
-        <guid>http://embeddedart.in/en/gallery/photo/</guid>
+        <guid>/en/gallery/photo/</guid>
         <description>Sample images from Pixabay</description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="http://embeddedart.inimages/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -40,15 +40,15 @@
       
       <item>
         <title>Products</title>
-        <link>http://embeddedart.in/en/gallery/products/</link>
+        <link>/en/gallery/products/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
-        <guid>http://embeddedart.in/en/gallery/products/</guid>
+        <guid>/en/gallery/products/</guid>
         <description>Embedded Art Procuts Images</description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="http://embeddedart.inimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

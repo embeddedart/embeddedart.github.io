@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://embeddedart.in/ko/en/</loc>
+    <loc>/ko/en/</loc>
   </url><url>
-    <loc>http://embeddedart.in/ko/categories/</loc>
+    <loc>/ko/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/categories/"
+                href="/ko/categories/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/ko/</loc>
+    <loc>/ko/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/"
+                href="/ko/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/ko/series/</loc>
+    <loc>/ko/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/series/"
+                href="/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/series/"
+                href="/ko/series/"
                 />
   </url><url>
-    <loc>http://embeddedart.in/ko/tags/</loc>
+    <loc>/ko/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://embeddedart.in/en/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://embeddedart.in/ko/tags/"
+                href="/ko/tags/"
                 />
   </url>
 </urlset>

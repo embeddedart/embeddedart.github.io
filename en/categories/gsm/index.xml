@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>GSM on Hugo Zzo Theme</title>
+    <link>http://embeddedart.in/en/categories/gsm/</link>
+    <description>Recent content in GSM on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
+    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
+    
+        <atom:link href="http://embeddedart.in/en/categories/gsm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>GSM AT Command</title>
+        <link>http://embeddedart.in/en/posts/gsm-at-command-2g/</link>
+        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <atom:modified>Sat, 24 Apr 2021 19:17:00 +0530</atom:modified>
+        <guid>http://embeddedart.in/en/posts/gsm-at-command-2g/</guid>
+        <description>GSM AT Command</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="http://embeddedart.inimages/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>GSM</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

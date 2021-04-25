@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tags on Embedded Art</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Embedded Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
+    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
+    
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>2G</title>
+        <link>/tags/2g/</link>
+        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/2g/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>GSM</title>
+        <link>/tags/gsm/</link>
+        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>css</title>
+        <link>/tags/css/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/css/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>html</title>
+        <link>/tags/html/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/html/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>markdown</title>
+        <link>/tags/markdown/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/markdown/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>themes</title>
+        <link>/tags/themes/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/themes/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>index</title>
+        <link>/tags/index/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/tags/index/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

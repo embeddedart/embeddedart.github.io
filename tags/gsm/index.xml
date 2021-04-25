@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>GSM on Embedded Art</title>
+    <link>/tags/gsm/</link>
+    <description>Recent content in GSM on Embedded Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
+    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
+    
+        <atom:link href="/tags/gsm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>GSM AT Command SIM800C</title>
+        <link>/posts/gsm-at-command-2g/</link>
+        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <atom:modified>Sat, 24 Apr 2021 19:17:00 +0530</atom:modified>
+        <guid>/posts/gsm-at-command-2g/</guid>
+        <description>SMS AT
+ Checking communication between the module and computer or microcontroller.
+ AT+CMGF=1
+ Select SMS Message Format
+mode 0 PDU mode
+1 Text mode
+ </description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>GSM</category>
+            
+          
+            
+              <category>2G</category>
+            
+          
+        
+        
+          
+            
+              <category>GSM</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

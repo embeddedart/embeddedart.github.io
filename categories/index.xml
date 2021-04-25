@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on Embedded Art</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Embedded Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
+    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
+    
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>GSM</title>
+        <link>/categories/gsm/</link>
+        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/categories/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>syntax</title>
+        <link>/categories/syntax/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/categories/syntax/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>themes</title>
+        <link>/categories/themes/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/categories/themes/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

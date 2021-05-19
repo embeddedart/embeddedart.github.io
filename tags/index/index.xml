@@ -20,6 +20,30 @@
 
       
       <item>
+        <title>Products</title>
+        <link>/products/</link>
+        <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        
+        <guid>/products/</guid>
+        <description></description>
+        
+        <dc:creator>Brijesh Khokhar</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>index</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Posts</title>
         <link>/posts/</link>
         <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>

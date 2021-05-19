@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>GSM on Embedded Art</title>
-    <link>/tags/gsm/</link>
+    <link>https://embeddedart.github.io/tags/gsm/</link>
     <description>Recent content in GSM on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,23 +16,23 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 19 May 2021 13:47:00 +0530</lastBuildDate>
     
-        <atom:link href="/tags/gsm/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://embeddedart.github.io/tags/gsm/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Remote Monitoring System</title>
-        <link>/products/remote-monitoring-system/</link>
+        <link>https://embeddedart.github.io/products/remote-monitoring-system/</link>
         <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         <atom:modified>Wed, 19 May 2021 13:47:00 +0530</atom:modified>
-        <guid>/products/remote-monitoring-system/</guid>
+        <guid>https://embeddedart.github.io/products/remote-monitoring-system/</guid>
         <description>Remote Monitoring System Remote monitoring system can be used for any kind of industry for monitoring machinery, energy meter, weather station data, water meter, PLC, can control PLC output, read PLC input or analog input value, SCADA system, etc&amp;hellip;
 As all customers requirement is different we can provide custom solution.
 Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G / 4G Network modbus support MQTT, HTTP TCP/IP RS-485 / RS-232 Communication Support Ethernet Communication Support Inbuilt Digital Input / Digital Output, this is remove need of extra PLC  </description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="/images/thumbnail/remote_monitoring.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://embeddedart.github.io/images/thumbnail/remote_monitoring.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -60,11 +60,11 @@ Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G / 4G Network modbus s
       
       <item>
         <title>GSM AT Command SIM800C</title>
-        <link>/posts/gsm-at-command-2g/</link>
+        <link>https://embeddedart.github.io/posts/gsm-at-command-2g/</link>
         <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         <atom:modified>Sat, 24 Apr 2021 19:17:00 +0530</atom:modified>
-        <guid>/posts/gsm-at-command-2g/</guid>
+        <guid>https://embeddedart.github.io/posts/gsm-at-command-2g/</guid>
         <description>SMS AT
  Checking communication between the module and computer or microcontroller.
  AT+CMGF=1
@@ -74,7 +74,7 @@ mode 0 PDU mode
  </description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://embeddedart.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

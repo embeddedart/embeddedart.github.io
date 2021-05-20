@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Embedded Art</title>
-    <link>https://embeddedart.github.io/tags/</link>
+    <link>https://www.embeddedart.in/tags/</link>
     <description>Recent content in Tags on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 19 May 2021 13:47:00 +0530</lastBuildDate>
     
-        <atom:link href="https://embeddedart.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.embeddedart.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>GSM</title>
-        <link>https://embeddedart.github.io/tags/gsm/</link>
+        <link>https://www.embeddedart.in/tags/gsm/</link>
         <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/gsm/</guid>
+        <guid>https://www.embeddedart.in/tags/gsm/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>elevator</title>
-        <link>https://embeddedart.github.io/tags/elevator/</link>
+        <link>https://www.embeddedart.in/tags/elevator/</link>
         <pubDate>Sun, 25 Apr 2021 14:15:00 +0530</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/elevator/</guid>
+        <guid>https://www.embeddedart.in/tags/elevator/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -58,29 +58,11 @@
       
       <item>
         <title>2G</title>
-        <link>https://embeddedart.github.io/tags/2g/</link>
+        <link>https://www.embeddedart.in/tags/2g/</link>
         <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/2g/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shortcode</title>
-        <link>https://embeddedart.github.io/tags/shortcode/</link>
-        <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/shortcode/</guid>
+        <guid>https://www.embeddedart.in/tags/2g/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -94,11 +76,11 @@
       
       <item>
         <title>css</title>
-        <link>https://embeddedart.github.io/tags/css/</link>
+        <link>https://www.embeddedart.in/tags/css/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/css/</guid>
+        <guid>https://www.embeddedart.in/tags/css/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -112,11 +94,11 @@
       
       <item>
         <title>html</title>
-        <link>https://embeddedart.github.io/tags/html/</link>
+        <link>https://www.embeddedart.in/tags/html/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/html/</guid>
+        <guid>https://www.embeddedart.in/tags/html/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -130,11 +112,11 @@
       
       <item>
         <title>markdown</title>
-        <link>https://embeddedart.github.io/tags/markdown/</link>
+        <link>https://www.embeddedart.in/tags/markdown/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/markdown/</guid>
+        <guid>https://www.embeddedart.in/tags/markdown/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -148,173 +130,11 @@
       
       <item>
         <title>themes</title>
-        <link>https://embeddedart.github.io/tags/themes/</link>
+        <link>https://www.embeddedart.in/tags/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/themes/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>privacy</title>
-        <link>https://embeddedart.github.io/tags/privacy/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/privacy/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shortcodes</title>
-        <link>https://embeddedart.github.io/tags/shortcodes/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/shortcodes/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hugo</title>
-        <link>https://embeddedart.github.io/tags/hugo/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/hugo/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>amoji</title>
-        <link>https://embeddedart.github.io/tags/amoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/amoji/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>bamoji</title>
-        <link>https://embeddedart.github.io/tags/bamoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/bamoji/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>emoji</title>
-        <link>https://embeddedart.github.io/tags/emoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/emoji/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>gamoji</title>
-        <link>https://embeddedart.github.io/tags/gamoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/gamoji/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>namoji</title>
-        <link>https://embeddedart.github.io/tags/namoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/namoji/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>diagram</title>
-        <link>https://embeddedart.github.io/tags/diagram/</link>
-        <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://embeddedart.github.io/tags/diagram/</guid>
+        <guid>https://www.embeddedart.in/tags/themes/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -328,11 +148,11 @@
       
       <item>
         <title>index</title>
-        <link>https://embeddedart.github.io/tags/index/</link>
+        <link>https://www.embeddedart.in/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
         
-        <guid>https://embeddedart.github.io/tags/index/</guid>
+        <guid>https://www.embeddedart.in/tags/index/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

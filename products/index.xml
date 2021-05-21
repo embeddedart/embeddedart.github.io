@@ -14,11 +14,47 @@
     <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
     <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 19 May 2021 13:47:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 12:10:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/products/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>LED Display Control Card</title>
+        <link>https://www.embeddedart.in/products/led-display-control-card/</link>
+        <pubDate>Fri, 21 May 2021 12:10:00 +0530</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <atom:modified>Fri, 21 May 2021 12:10:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/led-display-control-card/</guid>
+        <description>LED Display Control Card LED Display Control Card is designed to make indusrial display easily. This card is drive easily available ready made module like P10. Display data can be updated via RS-232, RS-485, or Ethernet port. Data can be read from any PLC , SCADA system, PC, or any other system and data can be display real time which make this card unique. Also data can be displayed remotely using IOT application.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/led-display-control-card.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>display</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>display</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Remote Monitoring System</title>
@@ -68,7 +104,7 @@ Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G / 4G Network modbus s
         <description>Elevator Controller Specification :  Auto Door / Manual Door All Reed / Three Reed  </description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="https://www.embeddedart.in/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/elevator-controller-3D.PNG" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -21,6 +21,24 @@
 
       
       <item>
+        <title>Elevator</title>
+        <link>https://www.embeddedart.in/gallery/elevator/</link>
+        <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
+        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
+        <guid>https://www.embeddedart.in/gallery/elevator/</guid>
+        <description>Elevator Controller and Panel Photos</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Photo</title>
         <link>https://www.embeddedart.in/gallery/photo/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
@@ -48,7 +66,7 @@
         <description>Embedded Art Procuts Random Images</description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="https://www.embeddedart.in/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://www.embeddedart.in/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

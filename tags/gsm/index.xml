@@ -11,8 +11,8 @@
     <description>Recent content in GSM on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
-    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 19 May 2021 13:47:00 +0530</lastBuildDate>
     
@@ -24,7 +24,7 @@
         <title>Remote Monitoring System</title>
         <link>https://www.embeddedart.in/products/remote-monitoring-system/</link>
         <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Wed, 19 May 2021 13:47:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/products/remote-monitoring-system/</guid>
         <description>Remote Monitoring System Remote monitoring system can be used for any kind of industry for monitoring machinery, energy meter, weather station data, water meter, PLC, can control PLC output, read PLC input or analog input value, SCADA system, etc&amp;hellip;
@@ -62,7 +62,7 @@ Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G / 4G Network modbus s
         <title>GSM AT Command SIM800C</title>
         <link>https://www.embeddedart.in/posts/gsm-at-command-2g/</link>
         <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Sat, 24 Apr 2021 19:17:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/posts/gsm-at-command-2g/</guid>
         <description>SMS AT

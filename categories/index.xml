@@ -11,20 +11,56 @@
     <description>Recent content in Categories on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
-    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 21 May 2021 12:10:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 30 May 2021 15:57:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>home automation</title>
+        <link>https://www.embeddedart.in/categories/home-automation/</link>
+        <pubDate>Sun, 30 May 2021 15:57:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/categories/home-automation/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>elevator</title>
+        <link>https://www.embeddedart.in/categories/elevator/</link>
+        <pubDate>Sun, 23 May 2021 15:18:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/categories/elevator/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>display</title>
         <link>https://www.embeddedart.in/categories/display/</link>
         <pubDate>Fri, 21 May 2021 12:10:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/display/</guid>
         <description></description>
@@ -42,27 +78,9 @@
         <title>GSM</title>
         <link>https://www.embeddedart.in/categories/gsm/</link>
         <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/gsm/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>elevator</title>
-        <link>https://www.embeddedart.in/categories/elevator/</link>
-        <pubDate>Sun, 25 Apr 2021 14:15:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        
-        <guid>https://www.embeddedart.in/categories/elevator/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -78,7 +96,7 @@
         <title>syntax</title>
         <link>https://www.embeddedart.in/categories/syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/syntax/</guid>
         <description></description>
@@ -96,7 +114,7 @@
         <title>themes</title>
         <link>https://www.embeddedart.in/categories/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/themes/</guid>
         <description></description>

@@ -11,20 +11,92 @@
     <description>Recent content in Products on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
-    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 21 May 2021 12:10:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 30 May 2021 15:57:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/products/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Home Automation 4Channel</title>
+        <link>https://www.embeddedart.in/products/home-automation-4ch/</link>
+        <pubDate>Sun, 30 May 2021 15:57:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Sun, 30 May 2021 15:57:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/home-automation-4ch/</guid>
+        <description>Home Automation 4Channel Make Your Home Smart with Your DIY Idea We made this product to make home automation system affordable and accessible to every one. We sell this product with our default firmware which we update time to time and add more functionality.To make home automation project we provide ready made circuit and you write your code according to your ideas. You can control 4 appliances from anywhere in the world using WiFi and internet connectivity, board has also support for manual switch and infrared receiver conconnection.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/home-automation-4ch.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>home automation</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>home automation</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Elevator Controller G&#43;7</title>
+        <link>https://www.embeddedart.in/products/elevator-controller/</link>
+        <pubDate>Sun, 23 May 2021 15:18:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Sun, 23 May 2021 15:18:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/elevator-controller/</guid>
+        <description>Elevator Controller Specification :  Supply Voltage : 12VDC / 24VDC No of Stop: Upto G+7 Auto Door / Manual Door All Reed / Three Reed An error are display on LCD display. All system parameters can be adjusted by using 3 buttons and LCD placed on the card. Call Register LED and Call Push Button are on single wire. All the Input and Output are available in both 12VDC and 24VDC.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/elevator-controller-3D.PNG" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>LED Display Control Card</title>
         <link>https://www.embeddedart.in/products/led-display-control-card/</link>
         <pubDate>Fri, 21 May 2021 12:10:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Fri, 21 May 2021 12:10:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/products/led-display-control-card/</guid>
         <description>LED Display Control Card LED Display Control Card is designed to make indusrial display easily. This card is drive easily available ready made module like P10. Display data can be updated via RS-232, RS-485, or Ethernet port. Data can be read from any PLC , SCADA system, PC, or any other system and data can be display real time which make this card unique. Also data can be displayed remotely using IOT application.</description>
@@ -60,7 +132,7 @@
         <title>Remote Monitoring System</title>
         <link>https://www.embeddedart.in/products/remote-monitoring-system/</link>
         <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Wed, 19 May 2021 13:47:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/products/remote-monitoring-system/</guid>
         <description>Remote Monitoring System Remote monitoring system can be used for any kind of industry for monitoring machinery, energy meter, weather station data, water meter, PLC, can control PLC output, read PLC input or analog input value, SCADA system, etc&amp;hellip;
@@ -84,42 +156,6 @@ Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G / 4G Network modbus s
           
             
               <category>gsm</category>
-            
-          
-        
-        
-          
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Elevator Controller G&#43;7</title>
-        <link>https://www.embeddedart.in/products/elevator-controller/</link>
-        <pubDate>Sun, 25 Apr 2021 14:15:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        <atom:modified>Sun, 25 Apr 2021 14:15:00 +0530</atom:modified>
-        <guid>https://www.embeddedart.in/products/elevator-controller/</guid>
-        <description>Elevator Controller Specification :  Auto Door / Manual Door All Reed / Three Reed  </description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="https://www.embeddedart.in/images/thumbnail/elevator-controller-3D.PNG" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>elevator</category>
-            
-          
-            
-          
-        
-        
-          
-            
-              <category>elevator</category>
             
           
         

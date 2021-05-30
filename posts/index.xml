@@ -11,8 +11,8 @@
     <description>Recent content in Posts on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
-    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
     
@@ -24,7 +24,7 @@
         <title>GSM AT Command SIM800C</title>
         <link>https://www.embeddedart.in/posts/gsm-at-command-2g/</link>
         <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Sat, 24 Apr 2021 19:17:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/posts/gsm-at-command-2g/</guid>
         <description>SMS AT
@@ -68,7 +68,7 @@ mode 0 PDU mode
         <title>Markdown Syntax Guide</title>
         <link>https://www.embeddedart.in/posts/markdown-syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
         <guid>https://www.embeddedart.in/posts/markdown-syntax/</guid>
         <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>

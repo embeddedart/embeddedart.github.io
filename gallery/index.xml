@@ -11,10 +11,10 @@
     <description>Recent content in Galleries on Embedded Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>khokharbrijesh@gmail.com (brijesh khokhar)</managingEditor>
-    <webMaster>khokharbrijesh@gmail.com (brijesh khokhar)</webMaster>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 31 Oct 2019 10:20:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 14:42:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/gallery/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,9 +23,9 @@
       <item>
         <title>Elevator</title>
         <link>https://www.embeddedart.in/gallery/elevator/</link>
-        <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
-        <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
+        <pubDate>Fri, 21 May 2021 14:42:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Fri, 21 May 2021 14:42:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/gallery/elevator/</guid>
         <description>Elevator Controller and Panel Photos</description>
         
@@ -42,7 +42,7 @@
         <title>Photo</title>
         <link>https://www.embeddedart.in/gallery/photo/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
         <guid>https://www.embeddedart.in/gallery/photo/</guid>
         <description>Sample images from Pixabay</description>
@@ -60,7 +60,7 @@
         <title>Products</title>
         <link>https://www.embeddedart.in/gallery/products/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
-        <author>khokharbrijesh@gmail.com (brijesh khokhar)</author>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
         <guid>https://www.embeddedart.in/gallery/products/</guid>
         <description>Embedded Art Procuts Random Images</description>

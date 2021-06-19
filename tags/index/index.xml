@@ -20,15 +20,15 @@
 
       
       <item>
-        <title>Products</title>
-        <link>https://www.embeddedart.in/products/</link>
-        <pubDate>Sun, 30 May 2021 15:57:00 +0530</pubDate>
+        <title>Posts</title>
+        <link>https://www.embeddedart.in/posts/</link>
+        <pubDate>Sat, 19 Jun 2021 13:19:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/products/</guid>
+        <guid>https://www.embeddedart.in/posts/</guid>
         <description></description>
         
-        <dc:creator>Brijesh Khokhar</dc:creator>
+        <dc:creator>Hugo Authors</dc:creator>
         
         
         
@@ -44,15 +44,15 @@
       </item>
       
       <item>
-        <title>Posts</title>
-        <link>https://www.embeddedart.in/posts/</link>
-        <pubDate>Sat, 24 Apr 2021 19:17:00 +0530</pubDate>
+        <title>Products</title>
+        <link>https://www.embeddedart.in/products/</link>
+        <pubDate>Sun, 30 May 2021 15:57:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/posts/</guid>
+        <guid>https://www.embeddedart.in/products/</guid>
         <description></description>
         
-        <dc:creator>Hugo Authors</dc:creator>
+        <dc:creator>Brijesh Khokhar</dc:creator>
         
         
         

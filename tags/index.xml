@@ -14,11 +14,29 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 30 May 2021 15:57:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jun 2021 13:19:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>IO Controller</title>
+        <link>https://www.embeddedart.in/tags/io-controller/</link>
+        <pubDate>Sat, 19 Jun 2021 13:19:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/io-controller/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>home automation</title>

@@ -14,11 +14,45 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 19:17:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jun 2021 13:19:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>EA_0009_V3 UMS Controller Reference</title>
+        <link>https://www.embeddedart.in/posts/ea_0009_v3_ums_controller_ref/</link>
+        <pubDate>Sat, 19 Jun 2021 13:19:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Sat, 19 Jun 2021 13:19:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/ea_0009_v3_ums_controller_ref/</guid>
+        <description>EA_0009_V3 UMS Controller Reference Display and Switch Mounting position on box front plate </description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/sim800c.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>GSM AT Command SIM800C</title>

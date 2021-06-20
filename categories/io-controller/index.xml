@@ -27,10 +27,11 @@
         <author>info@embeddedart.in (brijesh khokhar)</author>
         <atom:modified>Sat, 19 Jun 2021 13:19:00 +0530</atom:modified>
         <guid>https://www.embeddedart.in/posts/ea_0009_v3_ums_controller_ref/</guid>
-        <description>EA_0009_V3 UMS Controller Reference Display and Switch Mounting position on box front plate </description>
+        <description>EA_0009_V3 UMS Controller Reference Display and Switch Mounting position in box UMS Controller Back Plate Connection Detail Note : solder connector as pin 1 start from left on connector.
+UMS Controller PCB </description>
         
         <dc:creator>brijesh khokhar</dc:creator>
-        <media:content url="https://www.embeddedart.in/images/thumbnail/sim800c.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://www.embeddedart.in/images/EA_0009_V3_UMS_Controller_Ref/display-switch-mounting.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -14,11 +14,51 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 19 Jun 2021 13:19:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 10:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Ngrok - Make Your Localhost Accessible from anywhere</title>
+        <link>https://www.embeddedart.in/posts/ngrok-localhost-accessible-from-anywhere/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Wed, 25 Aug 2021 10:53:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/ngrok-localhost-accessible-from-anywhere/</guid>
+        <description>Ngrok - Make Your Localhost Accessible from anywhere  Signup for ngrok account download appropriate &amp;ldquo;.zip&amp;rdquo; package from website    open terminal and goto download folder
+  unzip command
+  unzip ngrok-stable-linux-arm.zip Connect your account, copy command from ngrock account  ./ngrok authtoken &amp;quot;your key&amp;quot; how to use ngrok  Start web server using below command to test (you need to install python for this&amp;hellip;)  sudo python -m SimpleHTTPServer 80 Open terminal and goto ngrok install location and run below command  .</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/ngrok.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Ngrok</category>
+            
+          
+            
+              <category>iot</category>
+            
+          
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>EA_0009_V3 UMS Controller Reference</title>

@@ -14,11 +14,65 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 19 Jun 2021 13:19:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 Sep 2021 15:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>GSM</title>
+        <link>https://www.embeddedart.in/tags/gsm/</link>
+        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>iot</title>
+        <link>https://www.embeddedart.in/tags/iot/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/iot/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Ngrok</title>
+        <link>https://www.embeddedart.in/tags/ngrok/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/ngrok/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>IO Controller</title>
@@ -81,24 +135,6 @@
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/tags/display/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>GSM</title>
-        <link>https://www.embeddedart.in/tags/gsm/</link>
-        <pubDate>Wed, 19 May 2021 13:47:00 +0530</pubDate>
-        <author>info@embeddedart.in (brijesh khokhar)</author>
-        
-        <guid>https://www.embeddedart.in/tags/gsm/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

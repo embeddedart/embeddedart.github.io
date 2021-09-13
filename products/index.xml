@@ -14,11 +14,49 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 30 May 2021 15:57:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 Sep 2021 15:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/products/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>GSM Controller 2G DIN Rail</title>
+        <link>https://www.embeddedart.in/products/gsm-controller-2g-ea_0003_v6/</link>
+        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Mon, 13 Sep 2021 15:53:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/gsm-controller-2g-ea_0003_v6/</guid>
+        <description>GSM Controller 2G GSM Controller can be used for any kind of industry for monitoring machinery, energy meter, weather station data, water meter, PLC, can control PLC output, read PLC input or analog input value, SCADA system, etc&amp;hellip;
+As all customers requirement is different we can provide custom solution.
+Specification :  Power Supply : 24VDC / 12VDC / 230V AC 2G modbus support MQTT, HTTP TCP/IP RS-485 Communication Support Inbuilt 2 Digital Input / 2 Digital Output, this is remove need of extra PLC  Application :  Motor Starter PLC / SCADA / Industrial because of RS-485 and modbus support IOT application , MQTT , HTTP other custom application  </description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/remote_monitoring.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>gsm</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>gsm</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Home Automation 4Channel</title>

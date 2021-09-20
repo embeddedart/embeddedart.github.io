@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Bag Counter on Embedded Art</title>
+    <link>https://www.embeddedart.in/tags/bag-counter/</link>
+    <description>Recent content in Bag Counter on Embedded Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
+    <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
+    
+        <atom:link href="https://www.embeddedart.in/tags/bag-counter/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>EA_0009_V3 Bag Counter Reference</title>
+        <link>https://www.embeddedart.in/posts/ea_0009_v3-bag-counter/</link>
+        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Mon, 20 Sep 2021 17:29:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/ea_0009_v3-bag-counter/</guid>
+        <description>EA_0009_V3 Bag Counter Reference Main PCB Images and Connector reference Bag Counter Back PCB Connector Detail 16x2 LCD Display JST Connector Detail Switch PCB Soldering and Connector Detail </description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/bag-counter-ref/1.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bag Counter</category>
+            
+          
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

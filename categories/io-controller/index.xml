@@ -14,11 +14,45 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 10:53:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/io-controller/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>EA_0009_V3 Bag Counter Reference</title>
+        <link>https://www.embeddedart.in/posts/ea_0009_v3-bag-counter/</link>
+        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Mon, 20 Sep 2021 17:29:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/ea_0009_v3-bag-counter/</guid>
+        <description>EA_0009_V3 Bag Counter Reference Main PCB Images and Connector reference Bag Counter Back PCB Connector Detail 16x2 LCD Display JST Connector Detail Switch PCB Soldering and Connector Detail </description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/bag-counter-ref/1.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Bag Counter</category>
+            
+          
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Ngrok - Make Your Localhost Accessible from anywhere</title>

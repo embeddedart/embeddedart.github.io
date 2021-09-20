@@ -14,19 +14,19 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 13 Sep 2021 15:53:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>GSM</title>
-        <link>https://www.embeddedart.in/categories/gsm/</link>
-        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
+        <title>IO Controller</title>
+        <link>https://www.embeddedart.in/categories/io-controller/</link>
+        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/categories/gsm/</guid>
+        <guid>https://www.embeddedart.in/categories/io-controller/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>IO Controller</title>
-        <link>https://www.embeddedart.in/categories/io-controller/</link>
-        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <title>GSM</title>
+        <link>https://www.embeddedart.in/categories/gsm/</link>
+        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/categories/io-controller/</guid>
+        <guid>https://www.embeddedart.in/categories/gsm/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

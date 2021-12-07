@@ -14,19 +14,73 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 14:30:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Bag Counter</title>
-        <link>https://www.embeddedart.in/tags/bag-counter/</link>
-        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
+        <title>IO Controller</title>
+        <link>https://www.embeddedart.in/tags/io-controller/</link>
+        <pubDate>Tue, 07 Dec 2021 14:30:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/tags/bag-counter/</guid>
+        <guid>https://www.embeddedart.in/tags/io-controller/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>4G</title>
+        <link>https://www.embeddedart.in/tags/4g/</link>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/4g/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>EA_0003_V6</title>
+        <link>https://www.embeddedart.in/tags/ea_0003_v6/</link>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/ea_0003_v6/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>EC20</title>
+        <link>https://www.embeddedart.in/tags/ec20/</link>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/ec20/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -41,10 +95,28 @@
       <item>
         <title>GSM</title>
         <link>https://www.embeddedart.in/tags/gsm/</link>
-        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/tags/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Bag Counter</title>
+        <link>https://www.embeddedart.in/tags/bag-counter/</link>
+        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/bag-counter/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -93,12 +165,12 @@
       </item>
       
       <item>
-        <title>IO Controller</title>
-        <link>https://www.embeddedart.in/tags/io-controller/</link>
-        <pubDate>Sat, 19 Jun 2021 13:19:00 +0530</pubDate>
+        <title>python</title>
+        <link>https://www.embeddedart.in/tags/python/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
-        <guid>https://www.embeddedart.in/tags/io-controller/</guid>
+        <guid>https://www.embeddedart.in/tags/python/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

@@ -9,36 +9,57 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/</loc>
-    <lastmod>2021-09-20T17:29:00+05:30</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/tags/bag-counter/</loc>
-    <lastmod>2021-09-20T17:29:00+05:30</lastmod>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/categories/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/io-controller/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/categories/io-controller/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/products/io-controller-lan/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/products/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/</loc>
+    <lastmod>2021-12-07T14:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/4g/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/ea_0003_v6/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/ec20/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/posts/ec20-at-command/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/gsm/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/categories/gsm-controller/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/posts/</loc>
+    <lastmod>2021-10-07T16:15:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/tags/bag-counter/</loc>
     <lastmod>2021-09-20T17:29:00+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/posts/ea_0009_v3-bag-counter/</loc>
     <lastmod>2021-09-20T17:29:00+05:30</lastmod>
   </url><url>
-    <loc>https://www.embeddedart.in/categories/io-controller/</loc>
-    <lastmod>2021-09-20T17:29:00+05:30</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/posts/</loc>
-    <lastmod>2021-09-20T17:29:00+05:30</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/tags/</loc>
-    <lastmod>2021-09-20T17:29:00+05:30</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/tags/gsm/</loc>
-    <lastmod>2021-09-13T15:53:00+05:30</lastmod>
-  </url><url>
     <loc>https://www.embeddedart.in/categories/gsm/</loc>
     <lastmod>2021-09-13T15:53:00+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/products/gsm-controller-2g-ea_0003_v6/</loc>
-    <lastmod>2021-09-13T15:53:00+05:30</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/products/</loc>
     <lastmod>2021-09-13T15:53:00+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/tags/iot/</loc>
@@ -50,10 +71,16 @@
     <loc>https://www.embeddedart.in/posts/ngrok-localhost-accessible-from-anywhere/</loc>
     <lastmod>2021-08-25T10:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://www.embeddedart.in/posts/ea_0009_v3_ums_controller_ref/</loc>
-    <lastmod>2021-06-19T13:19:00+05:30</lastmod>
+    <loc>https://www.embeddedart.in/tags/python/</loc>
+    <lastmod>2021-08-25T10:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://www.embeddedart.in/tags/io-controller/</loc>
+    <loc>https://www.embeddedart.in/categories/python/</loc>
+    <lastmod>2021-08-25T10:53:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/posts/python-virtual-environment-setup/</loc>
+    <lastmod>2021-08-25T10:53:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/posts/ea_0009_v3_ums_controller_ref/</loc>
     <lastmod>2021-06-19T13:19:00+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/tags/home-automation/</loc>

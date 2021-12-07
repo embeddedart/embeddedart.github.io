@@ -14,7 +14,7 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 14:30:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,10 +23,28 @@
       <item>
         <title>IO Controller</title>
         <link>https://www.embeddedart.in/categories/io-controller/</link>
-        <pubDate>Mon, 20 Sep 2021 17:29:00 +0530</pubDate>
+        <pubDate>Tue, 07 Dec 2021 14:30:00 +0530</pubDate>
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/io-controller/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>GSM Controller</title>
+        <link>https://www.embeddedart.in/categories/gsm-controller/</link>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/categories/gsm-controller/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>
@@ -45,6 +63,24 @@
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>python</title>
+        <link>https://www.embeddedart.in/categories/python/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/categories/python/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

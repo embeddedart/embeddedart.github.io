@@ -14,11 +14,59 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 07 Oct 2021 16:15:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>EC20 4G GSM Modem AT Command</title>
+        <link>https://www.embeddedart.in/posts/ec20-at-command/</link>
+        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Thu, 07 Oct 2021 16:15:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/ec20-at-command/</guid>
+        <description>EC20 AT COMMAND Note : at end of every AT command add  (0x0D) to terminate command.
+Commands are usually followed by a response that includes “”.
+AT+QURCCFG Configure URC Indication Option AT+QURCCFG=? AT+QURCCFG=&amp;quot;urcport&amp;quot;,&amp;quot;uart1&amp;quot;  this command will show URC indication on main UART port. Configuration of URC output port will be saved to NV immediately by default. After URC output port is set successfully, it will take effect immediately.  AT+CLIP Calling Line Identification Presentation</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/remote_monitoring.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>EC20</category>
+            
+          
+            
+              <category>EA_0003_V6</category>
+            
+          
+            
+              <category>GSM</category>
+            
+          
+            
+              <category>4G</category>
+            
+          
+        
+        
+          
+            
+              <category>GSM Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>EA_0009_V3 Bag Counter Reference</title>
@@ -84,6 +132,44 @@
           
             
               <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Python Virtual Environment Setup</title>
+        <link>https://www.embeddedart.in/posts/python-virtual-environment-setup/</link>
+        <pubDate>Wed, 25 Aug 2021 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Wed, 25 Aug 2021 10:53:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/posts/python-virtual-environment-setup/</guid>
+        <description>Python Virtual Environment Setup Create the virtual environment To create a virtual environment, you must specify a path. For example to create one in the local directory called ‘venv’, type the following:
+virtualenv venv Activate the virtual environment You can activate the python environment by running the following command:
+Windows :
+venv\Scripts\activate Mac OS / Linux :
+source venv/bin/activate You should see the name of your virtual environment in brackets on your terminal line e.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/ngrok.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>python</category>
+            
+          
+        
+        
+          
+            
+              <category>python</category>
             
           
         

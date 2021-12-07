@@ -14,11 +14,47 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 20 Sep 2021 17:29:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 14:30:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/io-controller/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>IO Controller LAN</title>
+        <link>https://www.embeddedart.in/products/io-controller-lan/</link>
+        <pubDate>Tue, 07 Dec 2021 14:30:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Tue, 07 Dec 2021 14:30:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/io-controller-lan/</guid>
+        <description>IO Controller LAN This IO Controller work as industrial PLC, this device is suitable in industrial automation
+We provide Custom firmware and hardware support
+Features :  Power Supply : 24V DC LAN Supoort 8 Digital Output 8 digital input RS-485 RS-232 RTC (real time clock) 16x2 LCD Display Switch  This board can also use in industrial application, as all customers requirement is different we can provide custom solution.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/IO-Controller_LAN/1.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+              <category>IO Controller</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>EA_0009_V3 Bag Counter Reference</title>

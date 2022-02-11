@@ -14,11 +14,83 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 May 2021 15:18:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 11 Feb 2022 13:47:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/elevator/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Monarch Elevator Integrated Control Panel</title>
+        <link>https://www.embeddedart.in/products/monarch-elevator-control-panel/</link>
+        <pubDate>Fri, 11 Feb 2022 13:47:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Fri, 11 Feb 2022 13:47:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/monarch-elevator-control-panel/</guid>
+        <description>Monarch Elevator Integrated Control Panel Features :  Machine Room &amp;amp; Room-less type Enclosure. Appropriate placement of cards and components, simplified wiring for fast installation and easy maintenance &amp;amp; Debugging. Microcontroller based state of the art design. Optically Isolated Inputs &amp;amp; outputs for high reliable operation. Highly Noise Immune circuit design and stable power supply backing to withstand all type of power supply conditions. Field serviceable socket type interconnectivity &amp;amp; Modular PC- Boards for hassle free replacement.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/monarch-elevator-integrated-control-panel-3.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Elevator Control Panel</title>
+        <link>https://www.embeddedart.in/products/elevator-control-panel/</link>
+        <pubDate>Thu, 10 Feb 2022 13:27:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Thu, 10 Feb 2022 13:27:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/elevator-control-panel/</guid>
+        <description>Elevator Control Panel Specification :  Supply Voltage : Three Phase No of Stop: Upto G+7 Auto Door / Manual Door All Reed / Three Reed An error are display on LCD display on elevator controller. All system parameters can be adjusted by using 3 buttons and LCD placed on the card. Call Register LED and Call Push Button are on single wire. All the Input and Output are available in both 12VDC and 24VDC.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/thumbnail/elevator-control-panel-2.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>elevator</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Elevator Controller</title>

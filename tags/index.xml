@@ -14,11 +14,29 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Feb 2022 13:47:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 Apr 2022 10:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>4G</title>
+        <link>https://www.embeddedart.in/tags/4g/</link>
+        <pubDate>Wed, 13 Apr 2022 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/tags/4g/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>elevator</title>
@@ -45,24 +63,6 @@
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/tags/io-controller/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>4G</title>
-        <link>https://www.embeddedart.in/tags/4g/</link>
-        <pubDate>Thu, 07 Oct 2021 16:15:00 +0530</pubDate>
-        <author>info@embeddedart.in (brijesh khokhar)</author>
-        
-        <guid>https://www.embeddedart.in/tags/4g/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

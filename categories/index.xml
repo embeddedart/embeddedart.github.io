@@ -14,11 +14,29 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Feb 2022 13:47:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 Apr 2022 10:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>GSM</title>
+        <link>https://www.embeddedart.in/categories/gsm/</link>
+        <pubDate>Wed, 13 Apr 2022 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        
+        <guid>https://www.embeddedart.in/categories/gsm/</guid>
+        <description></description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>elevator</title>
@@ -63,24 +81,6 @@
         <author>info@embeddedart.in (brijesh khokhar)</author>
         
         <guid>https://www.embeddedart.in/categories/gsm-controller/</guid>
-        <description></description>
-        
-        <dc:creator>brijesh khokhar</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>GSM</title>
-        <link>https://www.embeddedart.in/categories/gsm/</link>
-        <pubDate>Mon, 13 Sep 2021 15:53:00 +0530</pubDate>
-        <author>info@embeddedart.in (brijesh khokhar)</author>
-        
-        <guid>https://www.embeddedart.in/categories/gsm/</guid>
         <description></description>
         
         <dc:creator>brijesh khokhar</dc:creator>

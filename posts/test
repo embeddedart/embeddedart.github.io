@@ -1,0 +1,57 @@
+---
+title: "ThingsBoard Install on Raspberry Pi"
+date: 2021-08-25T10:53:00+05:30
+description: "Ngrok Setup Guide. Make Your Localhost Accessible from anywhere."
+draft: true
+enableToc: true
+enableTocContent: true
+tags:
+- Ngrok
+- iot
+series:
+-
+categories:
+- IO Controller
+libraries:
+- wavedrom
+# image: images/thumbnail/sim800c.jpg
+image: images/thumbnail/ngrok.png
+---
+
+
+
+## Installing ThingsBoard on Raspberry Pi 3 Model B
+
+#### Update Raspberry
+```
+sudo apt update
+```
+
+```
+sudo apt upgrade
+```
+
+#### ThingsBoard service is running on Java 11. Follow this instructions to install OpenJDK 11
+```
+sudo apt install openjdk-11-jdk
+```
+
+###### below command is needed if multiple java install
+```
+sudo update-alternatives --config java
+```
+
+
+### Step 2. ThingsBoard service installation
+#### Download installation package.
+```
+wget https://github.com/thingsboard/thingsboard/releases/download/v3.3.1/thingsboard-3.3.1.deb
+```
+
+#### Install ThingsBoard as a service
+```
+sudo dpkg -i thingsboard-3.3.1.deb
+```
+
+
+

@@ -14,7 +14,7 @@
     <managingEditor>info@embeddedart.in (brijesh khokhar)</managingEditor>
     <webMaster>info@embeddedart.in (brijesh khokhar)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Feb 2022 13:47:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 13 Apr 2022 10:53:00 +0530</lastBuildDate>
     
         <atom:link href="https://www.embeddedart.in/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,42 @@
         
       
 
+      
+      <item>
+        <title>IOT Gateway 4G Modbus</title>
+        <link>https://www.embeddedart.in/products/iot-gateway-4g-modbus/</link>
+        <pubDate>Wed, 13 Apr 2022 10:53:00 +0530</pubDate>
+        <author>info@embeddedart.in (brijesh khokhar)</author>
+        <atom:modified>Wed, 13 Apr 2022 10:53:00 +0530</atom:modified>
+        <guid>https://www.embeddedart.in/products/iot-gateway-4g-modbus/</guid>
+        <description>IOT Gateway 4G Modbus Industrial IoT (Internet of Things) Gateway Description :  Modbus RTU (RS485) to GPRS(MQTT) Gateway is Reliable, Flexible and Plug-n-play device to fetch data Over Modbus RTU and send them to cloud using MQTT protocol over GPRS Network. Device has WiFi and Bluetooth and GPS functionality. Multiple Modbus RTU transactions can be configured using SMS or From cloud to fetch data from variety of Modbus supported devices like Energymeter, Temperature scanner etc.</description>
+        
+        <dc:creator>brijesh khokhar</dc:creator>
+        <media:content url="https://www.embeddedart.in/images/IOT-Gateway-4G/IOT-Gateway-4G-1.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>4G</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>GSM</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Monarch Elevator Integrated Control Panel</title>

@@ -4,8 +4,8 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.107.0">
-<link rel="canonical" type="text/html" href="https://docs.embeddedart.in/docs/">
-<link rel="alternate" type="application/rss&#43;xml" href="https://docs.embeddedart.in/docs/index.xml">
+<link rel="canonical" type="text/html" href="https://www.embeddedart.in/docs/">
+<link rel="alternate" type="application/rss&#43;xml" href="https://www.embeddedart.in/docs/index.xml">
 <meta name="robots" content="noindex, nofollow">
 
 
@@ -25,7 +25,7 @@
 <meta property="og:title" content="Welcome to the Embedded Art Docs" />
 <meta property="og:description" content="A Docsy example site" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://docs.embeddedart.in/docs/" /><meta property="og:site_name" content="EMBEDDED ART" />
+<meta property="og:url" content="https://www.embeddedart.in/docs/" /><meta property="og:site_name" content="EMBEDDED ART" />
 
 <meta itemprop="name" content="Welcome to the Embedded Art Docs">
 <meta itemprop="description" content="A Docsy example site"><meta name="twitter:card" content="summary"/>
@@ -123,7 +123,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
+<li>1: <a href="#pg-3fe8aa983428fb7b0e6a8e3306902029">Alarm System Project 1</a></li>
 
 
     
@@ -142,7 +142,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>2: <a href="#pg-99096327527bebd251a62ec916e9ea24">LED Control Card</a></li>
+<li>2: <a href="#pg-562a747bc72ed03885fa082d0a81cbdf">Bag Packing Controller Project 1</a></li>
 
 
     
@@ -161,7 +161,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>3: <a href="#pg-e34dd7f19065a64c8c4f08fac06d4af1">TCP/IP to RS-485 Converter 2</a></li>
+<li>3: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
 
 
     
@@ -180,7 +180,45 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>4: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP/IP to RS-485 Converter</a></li>
+<li>4: <a href="#pg-df7b8de12229ac521ce43dc8963d5b9b">LED Display Control Card</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>5: <a href="#pg-d546cbef32a1977ca1a7aa4e136d3eb7">RVM With LoadCell</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>6: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP/IP to RS-485 Converter</a></li>
 
 
     
@@ -234,7 +272,134 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="">
     
-	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">1 - IO Controller LAN</h1>
+	<h1 id="pg-3fe8aa983428fb7b0e6a8e3306902029">1 - Alarm System Project 1</h1>
+    <div class="lead">Alarm System Project Related Document.</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<p><strong>Note :</strong> 	No device id check in command, because card work as master. For More clarification check code.</p>
+<br>
+<h1 id="master-card">Master Card:</h1>
+<p>Digital Input Voltage = GND</p>
+<h2 id="protocol">Protocol</h2>
+<pre tabindex="0"><code>%{13-GETTBL0000}!            =&gt; get total slave device number
+</code></pre><pre tabindex="0"><code>%{13-TBL0000+00005}!         =&gt; set slave device count, default 5
+</code></pre><pre tabindex="0"><code>%{13-GETTBL0001}!            =&gt; time between two master command, default 5, 5 x 100mS = 500mS
+</code></pre><pre tabindex="0"><code>%{13-TBL0001+00010}!         =&gt; set time between two master command
+</code></pre><pre tabindex="0"><code>%{13-GETTBL0002}!            =&gt; Get link time out value
+</code></pre><pre tabindex="0"><code>%{13-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = 00015)
+</code></pre><h1 id="slave-card-">Slave Card :</h1>
+<ul>
+<li>Power Supply : 12V DC</li>
+<li>RS-485</li>
+<li>2 Digital Input, 2 Digital Output</li>
+</ul>
+<h2 id="protocol-1">Protocol</h2>
+<pre tabindex="0"><code>%{??-INFO}!                  =&gt; To check device firmware version
+</code></pre><pre tabindex="0"><code>%{??-GETDID}!                =&gt; Get Device ID
+</code></pre><pre tabindex="0"><code>%{??-DID01}!                 =&gt; always set device id, 00, 01, 02, 03, 04
+</code></pre><pre tabindex="0"><code>%{??-GETTBL0002}!            =&gt; Get link time out value
+</code></pre><pre tabindex="0"><code>%{??-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = value)
+</code></pre><br>
+<h1 id="images">Images</h1>
+<div class="container">
+<p><img src="connection-detail.jpeg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="board-dimensions.jpeg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-562a747bc72ed03885fa082d0a81cbdf">2 - Bag Packing Controller Project 1</h1>
+    <div class="lead">Bag packing controller</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<h2 id="features-">Features :</h2>
+<ul>
+<li>Power Supply : 230V AC</li>
+<li>Seven Segment Display</li>
+<li>3 Digital Output</li>
+<li>2 Digital Input</li>
+<li>Switch for Control</li>
+</ul>
+<h2 id="product-images-">Product Images :</h2>
+<div class="container">
+<p><img src="bag-packing-controller-1.jpg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="bag-packing-controller-2.jpg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="bag-packing-controller-3.jpg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">3 - IO Controller LAN</h1>
     <div class="lead">IO Controller with LAN, RS-485, RS-232, RTC, 8 Digital Input, 8 Digital Output Support.</div>
 	<!--
 
@@ -245,7 +410,8 @@ This is the multi-page printable view of this section.
 </div>
 
 -->
-<p><img src="TCP-IP-to-RS-485-1.jpg" alt="image"></p>
+<p><img src="IO-Controller-LAN-1.jpeg" alt="image">
+<img src="IO-Controller-LAN-2.jpeg" alt="image"></p>
 <p>This IO Controller work as industrial PLC, this device is suitable in industrial automation
 We provide Custom firmware and hardware support</p>
 <h4 id="features-">Features :</h4>
@@ -290,7 +456,7 @@ We provide Custom firmware and hardware support</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-99096327527bebd251a62ec916e9ea24">2 - LED Control Card</h1>
+	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">4 - LED Display Control Card</h1>
     <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
 	<!--
 
@@ -301,32 +467,32 @@ We provide Custom firmware and hardware support</p>
 </div>
 
 -->
-<!--
-![image](TCP-IP-to-RS-485-1.jpg)
--->
-<p>LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</p>
-<h4 id="features-">Features :</h4>
+<h2 id="features-">Features :</h2>
 <ul>
 <li>Power Supply : 5V-12V DC</li>
 <li>RS-485 / RS-232</li>
-<li>RTC (real time clock) , Temperature Sensor, Digital Input, etc. can be added</li>
+<li>RTC (real time clock) , Temperature Sensor, Digital Input, etc&hellip; can be added</li>
 </ul>
 <p>For industrial application all customers requirement is different so we can provide <strong>custom solution</strong> for led display.
 <strong>Contact us for any help</strong>.</p>
-<p>Protocol</p>
+<div class="container">
+<p><img src="led-display-control-card-1.jpg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="led-display-control-card-2.jpg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="led-display-control-card-3.jpg" alt="image"></p>
+</div>
+<h1 id="protocol">Protocol</h1>
 <pre tabindex="0"><code>%{??-INFO}!
 </code></pre><pre tabindex="0"><code>%{??-LN1EMBEDDED ART}!
-
-LN2
-
-LN3
-</code></pre><p>set DID , this is mandatory to get proper reply
+</code></pre><pre tabindex="0"><code>%{??-LN2EMBEDDED ART}!
+</code></pre><pre tabindex="0"><code>set DID , this is mandatory to get proper reply
 %{??-DID13}!
-DID</p>
-<p>GETDID</p>
-<p>GETLED</p>
-<p>GETTBL</p>
-<pre tabindex="0"><code>scroll enable disable
+</code></pre><pre tabindex="0"><code>%{??-GETDID}!
+</code></pre><pre tabindex="0"><code>%{??-GETLED}!
+</code></pre><pre tabindex="0"><code>scroll enable disable
 
 %{??-GETTBL0021}!
 
@@ -360,8 +526,8 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-e34dd7f19065a64c8c4f08fac06d4af1">3 - TCP/IP to RS-485 Converter 2</h1>
-    <div class="lead">RS485 to TCP/IP converter integrated with a robust system and network management.</div>
+	<h1 id="pg-d546cbef32a1977ca1a7aa4e136d3eb7">5 - RVM With LoadCell</h1>
+    <div class="lead">RVM With LoadCell</div>
 	<!--
 
 
@@ -371,7 +537,21 @@ scroll enable   %{??-TBL0021+00001}!
 </div>
 
 -->
-<p><img src="TCP-IP-to-RS-485-1.jpg" alt="image"></p>
+<h2 id="features-">Features :</h2>
+<ul>
+<li>Power Supply : 12V DC</li>
+<li>6 Digital Input</li>
+<li>4 Digital Output</li>
+<li>Two RS-485 communication support</li>
+<li>Current Measurement</li>
+</ul>
+<h3 id="wiring-detail-">Wiring Detail :</h3>
+<div class="container">
+<p><img src="wiring-detail-1.jpg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="dimensing-detail-1.jpg" alt="image"></p>
+</div>
 <hr>
 
 </div>
@@ -400,7 +580,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">4 - TCP/IP to RS-485 Converter</h1>
+	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">6 - TCP/IP to RS-485 Converter</h1>
     <div class="lead">RS485 to TCP/IP converter integrated with a robust system and network management.</div>
 	<!--
 
@@ -411,7 +591,9 @@ scroll enable   %{??-TBL0021+00001}!
 </div>
 
 -->
+<div class="container">
 <p><img src="TCP-IP-to-RS-485-1.jpg" alt="image"></p>
+</div>
 <hr>
 
 </div>
@@ -496,7 +678,7 @@ scroll enable   %{??-TBL0021+00001}!
         
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">&copy; 2022 Embedded Art All Rights Reserved</small>
+        <small class="text-white">&copy; 2023 Embedded Art All Rights Reserved</small>
         
 	
       </div>
@@ -506,7 +688,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 
     </div>
-    <script src="/js/main.min.e614851782a9e1a63bb76e75aa51cf0e55acd5ee3f2946d182c4d2d8a993a894.js" integrity="sha256-5hSFF4Kp4aY7t251qlHPDlWs1e4/KUbRgsTS2KmTqJQ=" crossorigin="anonymous"></script>
+    <script src="/js/main.min.7268b62860b2eb53b077022960b96cce72943b153ff4eff52723b9bfab2d2dec.js" integrity="sha256-cmi2KGCy61OwdwIpYLlsznKUOxU/9O/1JyO5v6stLew=" crossorigin="anonymous"></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

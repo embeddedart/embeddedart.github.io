@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EMBEDDED ART – posts</title>
+    <link>https://www.embeddedart.in/blog/posts/</link>
+    <description>Recent content in posts on EMBEDDED ART</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://www.embeddedart.in/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Python File Server</title>
+      <link>https://www.embeddedart.in/blog/2023/01/02/python-file-server/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/01/02/python-file-server/</guid>
+      <description>
+        
+        
+        &lt;p&gt;to start server run below command in terminal and currunet folder can be seen from web browser&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python -m http.server 7896
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

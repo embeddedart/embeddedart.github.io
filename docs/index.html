@@ -42,6 +42,10 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
   crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
 <script>
 var doNotTrack = false;
@@ -77,9 +81,19 @@ if (!doNotTrack) {
       </ul>
   </div>
   <div class="navbar-nav d-none d-lg-block">
-    <div class="td-search">
+    <div class="td-search td-search--offline">
   <div class="td-search__icon"></div>
-  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.2120b202dd9aa34bdf398625a860af26.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
 </div>
 
   </div>
@@ -92,9 +106,19 @@ if (!doNotTrack) {
             
 <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <div class="td-search">
+    <div class="td-search td-search--offline">
   <div class="td-search__icon"></div>
-  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.2120b202dd9aa34bdf398625a860af26.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
 </div>
 
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
@@ -105,16 +129,18 @@ if (!doNotTrack) {
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docs-li">
   <a href="/docs/" title="Welcome to the Embedded Art Docs" class="align-left pl-0 active td-sidebar-link td-sidebar-link__section tree-root" id="m-docs"><span class="td-sidebar-nav-active-item">Documentation</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsalaram-system-prj1-li">
-  <a href="/docs/alaram-system-prj1/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsalaram-system-prj1"><span class="">Alarm System Project 1</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsbag-packing-controller-prj1-li">
-  <a href="/docs/bag-packing-controller-prj1/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsbag-packing-controller-prj1"><span class="">Bag Packing Controller Project 1</span></a>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsalaram-system-li">
+  <a href="/docs/alaram-system/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsalaram-system"><span class="">Alarm System</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsbag-packing-controller-li">
+  <a href="/docs/bag-packing-controller/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsbag-packing-controller"><span class="">Bag Packing Controller</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docselevator-controller-li">
+  <a href="/docs/elevator-controller/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docselevator-controller"><span class="">Elevator Controller</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsio-controller-lan-li">
   <a href="/docs/io-controller-lan/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsio-controller-lan"><span class="">IO Controller LAN</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsled-display-control-card-li">
   <a href="/docs/led-display-control-card/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsled-display-control-card"><span class="">LED Display Control Card</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsrvm-loadcell-prj1-li">
-  <a href="/docs/rvm-loadcell-prj1/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsrvm-loadcell-prj1"><span class="">RVM With LoadCell</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsrvm-loadcell-li">
+  <a href="/docs/rvm-loadcell/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsrvm-loadcell"><span class="">RVM With LoadCell</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstcp-to-rs-485-li">
   <a href="/docs/tcp-to-rs-485/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docstcp-to-rs-485"><span class="">TCP/IP to RS-485 Converter</span></a>
 </li>
@@ -364,7 +390,7 @@ if (!doNotTrack) {
 
 
     </div>
-    <script src="/js/main.min.7268b62860b2eb53b077022960b96cce72943b153ff4eff52723b9bfab2d2dec.js" integrity="sha256-cmi2KGCy61OwdwIpYLlsznKUOxU/9O/1JyO5v6stLew=" crossorigin="anonymous"></script>
+    <script src="/js/main.min.f1a20e761a85478d0ce3298a01e295324be8858ef8f2d2baac6737980799b320.js" integrity="sha256-8aIOdhqFR40M4ymKAeKVMkvohY748tK6rGc3mAeZsyA=" crossorigin="anonymous"></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

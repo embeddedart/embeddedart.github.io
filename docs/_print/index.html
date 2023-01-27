@@ -42,6 +42,10 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
   crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
 <script>
 var doNotTrack = false;
@@ -77,9 +81,19 @@ if (!doNotTrack) {
       </ul>
   </div>
   <div class="navbar-nav d-none d-lg-block">
-    <div class="td-search">
+    <div class="td-search td-search--offline">
   <div class="td-search__icon"></div>
-  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.2120b202dd9aa34bdf398625a860af26.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
 </div>
 
   </div>
@@ -123,7 +137,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1: <a href="#pg-3fe8aa983428fb7b0e6a8e3306902029">Alarm System Project 1</a></li>
+<li>1: <a href="#pg-3e8f9ecf2705696e561490eb050a3890">Alarm System</a></li>
 
 
     
@@ -142,7 +156,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>2: <a href="#pg-562a747bc72ed03885fa082d0a81cbdf">Bag Packing Controller Project 1</a></li>
+<li>2: <a href="#pg-311680e62d3327ff9a969a5ce8a8fe38">Bag Packing Controller</a></li>
 
 
     
@@ -161,7 +175,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>3: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
+<li>3: <a href="#pg-832e9c926a67f6e588be217886a14bb6">Elevator Controller</a></li>
 
 
     
@@ -180,7 +194,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>4: <a href="#pg-df7b8de12229ac521ce43dc8963d5b9b">LED Display Control Card</a></li>
+<li>4: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
 
 
     
@@ -199,7 +213,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>5: <a href="#pg-d546cbef32a1977ca1a7aa4e136d3eb7">RVM With LoadCell</a></li>
+<li>5: <a href="#pg-df7b8de12229ac521ce43dc8963d5b9b">LED Display Control Card</a></li>
 
 
     
@@ -218,7 +232,26 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>6: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP/IP to RS-485 Converter</a></li>
+<li>6: <a href="#pg-64e47605ee0d9e9d5e57a888cfe1cb6e">RVM With LoadCell</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>7: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP/IP to RS-485 Converter</a></li>
 
 
     
@@ -272,7 +305,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="">
     
-	<h1 id="pg-3fe8aa983428fb7b0e6a8e3306902029">1 - Alarm System Project 1</h1>
+	<h1 id="pg-3e8f9ecf2705696e561490eb050a3890">1 - Alarm System</h1>
     <div class="lead">Alarm System Project Related Document.</div>
 	<!--
 
@@ -342,7 +375,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-562a747bc72ed03885fa082d0a81cbdf">2 - Bag Packing Controller Project 1</h1>
+	<h1 id="pg-311680e62d3327ff9a969a5ce8a8fe38">2 - Bag Packing Controller</h1>
     <div class="lead">Bag packing controller</div>
 	<!--
 
@@ -399,7 +432,74 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">3 - IO Controller LAN</h1>
+	<h1 id="pg-832e9c926a67f6e588be217886a14bb6">3 - Elevator Controller</h1>
+    <div class="lead">Universal Elevator Controller</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<h2 id="specification-">Specification :</h2>
+<ul>
+<li>Supply Voltage : 12VDC / 24VDC</li>
+<li>No of Stop: Upto G+7</li>
+<li>Auto Door / Manual Door</li>
+<li>All Reed / Three Reed</li>
+<li>An error are display on LCD display.</li>
+<li>All system parameters can be adjusted by using 3 buttons and LCD placed on the card.</li>
+<li>Call Register LED and Call Push Button are on single wire.</li>
+<li>All the Input and Output are available in both 12VDC and 24VDC.</li>
+<li>All the Input and Output are carrying LED indication on board.</li>
+<li>Each floor can be named by an alphanumeric character (L, C, P, b, t, G, 0, 1, 2, 3&hellip;..).</li>
+<li>All pin can be re-configure to any other pin on site.</li>
+<li>UPS function.</li>
+<li>Hydraulic lift support.</li>
+</ul>
+<h2 id="documents-">Documents :</h2>
+<p>Open a <a href="ELEVATOR-UNIVERSAL-CONTROLLER.pdf"  target="_blank">Elevator Controller Wiring Detail</a>.</p>
+<h2 id="product-images-">Product Images :</h2>
+<div class="container">
+<p><img src="elevator-controller-1.jpeg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="elevator-controller-2.jpeg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="elevator-controller-3.jpeg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">4 - IO Controller LAN</h1>
     <div class="lead">IO Controller with LAN, RS-485, RS-232, RTC, 8 Digital Input, 8 Digital Output Support.</div>
 	<!--
 
@@ -456,7 +556,7 @@ We provide Custom firmware and hardware support</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">4 - LED Display Control Card</h1>
+	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">5 - LED Display Control Card</h1>
     <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
 	<!--
 
@@ -526,7 +626,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-d546cbef32a1977ca1a7aa4e136d3eb7">5 - RVM With LoadCell</h1>
+	<h1 id="pg-64e47605ee0d9e9d5e57a888cfe1cb6e">6 - RVM With LoadCell</h1>
     <div class="lead">RVM With LoadCell</div>
 	<!--
 
@@ -580,7 +680,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">6 - TCP/IP to RS-485 Converter</h1>
+	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">7 - TCP/IP to RS-485 Converter</h1>
     <div class="lead">RS485 to TCP/IP converter integrated with a robust system and network management.</div>
 	<!--
 
@@ -688,7 +788,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 
     </div>
-    <script src="/js/main.min.7268b62860b2eb53b077022960b96cce72943b153ff4eff52723b9bfab2d2dec.js" integrity="sha256-cmi2KGCy61OwdwIpYLlsznKUOxU/9O/1JyO5v6stLew=" crossorigin="anonymous"></script>
+    <script src="/js/main.min.f1a20e761a85478d0ce3298a01e295324be8858ef8f2d2baac6737980799b320.js" integrity="sha256-8aIOdhqFR40M4ymKAeKVMkvohY748tK6rGc3mAeZsyA=" crossorigin="anonymous"></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

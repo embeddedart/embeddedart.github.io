@@ -46,6 +46,10 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
   crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
 <script>
 var doNotTrack = false;
@@ -81,9 +85,19 @@ if (!doNotTrack) {
       </ul>
   </div>
   <div class="navbar-nav d-none d-lg-block">
-    <div class="td-search">
+    <div class="td-search td-search--offline">
   <div class="td-search__icon"></div>
-  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.2120b202dd9aa34bdf398625a860af26.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
 </div>
 
   </div>
@@ -244,7 +258,7 @@ We provide Custom firmware and hardware support</p>
 
 
     </div>
-    <script src="/js/main.min.7268b62860b2eb53b077022960b96cce72943b153ff4eff52723b9bfab2d2dec.js" integrity="sha256-cmi2KGCy61OwdwIpYLlsznKUOxU/9O/1JyO5v6stLew=" crossorigin="anonymous"></script>
+    <script src="/js/main.min.f1a20e761a85478d0ce3298a01e295324be8858ef8f2d2baac6737980799b320.js" integrity="sha256-8aIOdhqFR40M4ymKAeKVMkvohY748tK6rGc3mAeZsyA=" crossorigin="anonymous"></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

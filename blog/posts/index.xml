@@ -22,14 +22,49 @@
       <description>
         
         
-        
-        <![CDATA[<img src="https://www.embeddedart.in/blog/2023/01/28/dwin-7-inch-display/featured-background_hubc059a48026217cba1be60578aaa4872_250420_640x0_resize_q75_catmullrom.jpg" width="640" height="481"/>]]>
-        
-        &lt;p&gt;&lt;img src=&#34;featured-background.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;1234&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;elevator-controller-2.jpeg&#34; alt=&#34;image&#34; title=&#34;elevator controller&#34;&gt;&lt;/p&gt;
-&lt;p&gt;123&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;DWIN-DMG10600T070_A5WTC.jpg&#34; alt=&#34;image&#34; title=&#34;DMG10600T070_A5WTC&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Python Virtual Environment</title>
+      <link>https://www.embeddedart.in/blog/2023/01/28/python-virtual-environment/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/01/28/python-virtual-environment/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Now in which ever directory you are, this line below will create a virtualenv there&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; virtualenv venv
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;you can name it anything&lt;/p&gt;
+&lt;p&gt;Now if you are in same directory then type,&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; venv\Scripts\activate
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to deactivate&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;deactivate
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Note : Enable execution policy to run activate scripts. (Administrator Privilege Required)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set-executionpolicy remotesigned
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: SIM7600 AT Command</title>
+      <link>https://www.embeddedart.in/blog/2023/01/28/sim7600-at-command/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/01/28/sim7600-at-command/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;mqtt-at-command&#34;&gt;MQTT AT Command&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;AT
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 
       </description>
     </item>

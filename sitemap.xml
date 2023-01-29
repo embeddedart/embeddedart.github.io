@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.embeddedart.in/docs/alaram-system/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/bag-packing-controller/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/elevator-controller/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/io-controller-lan/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
@@ -15,6 +18,7 @@
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/rvm-loadcell/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/tcp-to-rs-485/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
@@ -23,13 +27,19 @@
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/posts/</loc>
-    <lastmod>2023-01-24T23:08:18+05:30</lastmod>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/2023/01/28/dwin-7-inch-display/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/blog/2023/01/28/python-virtual-environment/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/blog/2023/01/28/sim7600-at-command/</loc>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/2023/01/02/python-file-server/</loc>
-    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/about/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>

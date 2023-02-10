@@ -14,6 +14,27 @@
     
     
     <item>
+      <title>Blog: Modbus Protocol</title>
+      <link>https://www.embeddedart.in/blog/2023/02/04/modbus-protocol/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/02/04/modbus-protocol/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;pdf&#34;&gt;PDF&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_Application_Protocol_V1_1b.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_Application_Protocol_V1_1b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_over_serial_line_V1_02.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_over_serial_line_V1_02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;PI_MBUS_300.pdf&#34;  target=&#34;_blank&#34;&gt;PI_MBUS_300&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_Messaging_Implementation_Guide_V1_0b.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_Messaging_Implementation_Guide_V1_0b&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;link&#34;&gt;Link&lt;/h4&gt;
+&lt;p&gt;&lt;a href=https://www.simplymodbus.ca/TCP.htm  target=&#34;_blank&#34;&gt;https://www.simplymodbus.ca/TCP.htm&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: DWIN 7 Inch Display</title>
       <link>https://www.embeddedart.in/blog/2023/01/28/dwin-7-inch-display/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
@@ -38,9 +59,10 @@
         
         
         &lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;p&gt;Now in which ever directory you are, this line below will create a virtualenv there&lt;/p&gt;
+&lt;p&gt;In which ever directory you are, this line below will create a virtualenv there, you can name it anything.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; virtualenv venv
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;you can name it anything&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;br&gt;
 &lt;p&gt;Now if you are in same directory then type,&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; venv\Scripts\activate
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to deactivate&lt;/p&gt;

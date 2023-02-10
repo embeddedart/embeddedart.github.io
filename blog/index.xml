@@ -14,6 +14,90 @@
     
     
     <item>
+      <title>Blog: email id</title>
+      <link>https://www.embeddedart.in/blog/2023/02/07/email-id/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/02/07/email-id/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;email-id&#34;&gt;Email ID&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Company Name&lt;/th&gt;
+&lt;th&gt;Gmail ID&lt;/th&gt;
+&lt;th&gt;Other Email Id&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Brijesh Khokhar&lt;/td&gt;
+&lt;td&gt;EMBEDDED ART&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:khokharbrijesh@gmail.com&#34;&gt;khokharbrijesh@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:brijesh@embeddedart.in&#34;&gt;brijesh@embeddedart.in&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ankur Patel&lt;/td&gt;
+&lt;td&gt;Kemfree&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:ankur.94patel@gmail.com&#34;&gt;ankur.94patel@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jaydeep Dhameliys&lt;/td&gt;
+&lt;td&gt;QDev Technolab&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:dhameliya.jaydeep@gmail.com&#34;&gt;dhameliya.jaydeep@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sohil Patel&lt;/td&gt;
+&lt;td&gt;PSQUARE PHARMACHEM&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:psquarepharmachem@gmail.com&#34;&gt;psquarepharmachem@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ashwin Ghadiya&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:aswinind.ahd@gmail.com&#34;&gt;aswinind.ahd@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kavita Hirpara&lt;/td&gt;
+&lt;td&gt;Ingenious Interior Design&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:ingeniousinterior79@gmail.com&#34;&gt;ingeniousinterior79@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Modbus Protocol</title>
+      <link>https://www.embeddedart.in/blog/2023/02/04/modbus-protocol/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/02/04/modbus-protocol/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;pdf&#34;&gt;PDF&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_Application_Protocol_V1_1b.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_Application_Protocol_V1_1b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_over_serial_line_V1_02.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_over_serial_line_V1_02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;PI_MBUS_300.pdf&#34;  target=&#34;_blank&#34;&gt;PI_MBUS_300&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;Modbus_Messaging_Implementation_Guide_V1_0b.pdf&#34;  target=&#34;_blank&#34;&gt;Modbus_Messaging_Implementation_Guide_V1_0b&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;link&#34;&gt;Link&lt;/h4&gt;
+&lt;p&gt;&lt;a href=https://www.simplymodbus.ca/TCP.htm  target=&#34;_blank&#34;&gt;https://www.simplymodbus.ca/TCP.htm&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: DWIN 7 Inch Display</title>
       <link>https://www.embeddedart.in/blog/2023/01/28/dwin-7-inch-display/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
@@ -29,6 +113,23 @@
     </item>
     
     <item>
+      <title>Blog: EA_0025_V3 Switch PDB</title>
+      <link>https://www.embeddedart.in/blog/2023/01/28/ea_0025_v3-switch-pdb/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/01/28/ea_0025_v3-switch-pdb/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;switch-pcb-1.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-1&#34;&gt;
+&lt;img src=&#34;switch-pcb-2.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-2&#34;&gt;
+&lt;img src=&#34;switch-pcb-3.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-3&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Python Virtual Environment</title>
       <link>https://www.embeddedart.in/blog/2023/01/28/python-virtual-environment/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
@@ -38,9 +139,10 @@
         
         
         &lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;p&gt;Now in which ever directory you are, this line below will create a virtualenv there&lt;/p&gt;
+&lt;p&gt;In which ever directory you are, this line below will create a virtualenv there, you can name it anything.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; virtualenv venv
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;you can name it anything&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;br&gt;
 &lt;p&gt;Now if you are in same directory then type,&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; venv\Scripts\activate
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to deactivate&lt;/p&gt;

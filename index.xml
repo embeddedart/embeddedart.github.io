@@ -13,15 +13,436 @@
     
     
     <item>
-      <title>Blog: email id</title>
-      <link>https://www.embeddedart.in/blog/2023/02/07/email-id/</link>
-      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <title>Blog: EA_0025_V3 Switch PDB</title>
+      <link>https://www.embeddedart.in/blog/2023/02/10/ea_0025_v3-switch-pdb/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.embeddedart.in/blog/2023/02/07/email-id/</guid>
+      <guid>https://www.embeddedart.in/blog/2023/02/10/ea_0025_v3-switch-pdb/</guid>
       <description>
         
         
-        &lt;h1 id=&#34;email-id&#34;&gt;Email ID&lt;/h1&gt;
+        &lt;p&gt;&lt;img src=&#34;switch-pcb-1.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-1&#34;&gt;
+&lt;img src=&#34;switch-pcb-2.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-2&#34;&gt;
+&lt;img src=&#34;switch-pcb-3.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-3&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: GPBO Detail</title>
+      <link>https://www.embeddedart.in/blog/2023/02/07/gpbo-detail/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embeddedart.in/blog/2023/02/07/gpbo-detail/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;google-form-link-for-weekly-data-upload&#34;&gt;Google Form Link for weekly data upload&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Berlin - &lt;a href=&#34;https://forms.gle/zYUBaVapRHZKSVLJ6&#34;&gt;https://forms.gle/zYUBaVapRHZKSVLJ6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tokyo - &lt;a href=&#34;https://forms.gle/mKSMZMZ333hosujT8&#34;&gt;https://forms.gle/mKSMZMZ333hosujT8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Moscow - &lt;a href=&#34;https://forms.gle/ac1kanjPKWaLS5cg9&#34;&gt;https://forms.gle/ac1kanjPKWaLS5cg9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Washington D.C. - &lt;a href=&#34;https://forms.gle/HNQEbp68yMD6AdXw6&#34;&gt;https://forms.gle/HNQEbp68yMD6AdXw6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;group-leader-name-for-privacy-purpose-not-added-contact-detail&#34;&gt;Group Leader Name, for privacy purpose not added contact detail&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;NAME&lt;/th&gt;
+&lt;th&gt;WING&lt;/th&gt;
+&lt;th&gt;GROUP&lt;/th&gt;
+&lt;th&gt;Place&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Brijesh Khokhar&lt;/td&gt;
+&lt;td&gt;Innovator&lt;/td&gt;
+&lt;td&gt;Berlin&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kavita Hirpara&lt;/td&gt;
+&lt;td&gt;Innovator&lt;/td&gt;
+&lt;td&gt;Tokyo&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jaydeep Dhameliya&lt;/td&gt;
+&lt;td&gt;Innovator&lt;/td&gt;
+&lt;td&gt;Moscow&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ashwin Ghadiya&lt;/td&gt;
+&lt;td&gt;Innovator&lt;/td&gt;
+&lt;td&gt;Washington D.C.&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Jayesh Kikani&lt;/td&gt;
+&lt;td&gt;Ignitor&lt;/td&gt;
+&lt;td&gt;Gold&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Vijay Kikani&lt;/td&gt;
+&lt;td&gt;Ignitor&lt;/td&gt;
+&lt;td&gt;Silver&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Aakash Patel&lt;/td&gt;
+&lt;td&gt;Ignitor&lt;/td&gt;
+&lt;td&gt;Platinum&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Harsh Patel&lt;/td&gt;
+&lt;td&gt;Ignitor&lt;/td&gt;
+&lt;td&gt;Palladiam&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Anand Patel&lt;/td&gt;
+&lt;td&gt;Creator&lt;/td&gt;
+&lt;td&gt;Parshuram&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Gaurav Dholariya&lt;/td&gt;
+&lt;td&gt;Creator&lt;/td&gt;
+&lt;td&gt;Vishwamitra&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Shunak Patel&lt;/td&gt;
+&lt;td&gt;Creator&lt;/td&gt;
+&lt;td&gt;Valmiki&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Girish Patel&lt;/td&gt;
+&lt;td&gt;Creator&lt;/td&gt;
+&lt;td&gt;Sandipani&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Sandip Patel&lt;/td&gt;
+&lt;td&gt;Creator&lt;/td&gt;
+&lt;td&gt;Vashistha&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Mehul Madaliya&lt;/td&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Dharmesh Kukadiya&lt;/td&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Mahesh Kalkani&lt;/td&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Rohit Ghevariya&lt;/td&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Darshan Dholkiya&lt;/td&gt;
+&lt;td&gt;Achiever&lt;/td&gt;
+&lt;td&gt;Agni&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Sunny Patel&lt;/td&gt;
+&lt;td&gt;Achiever&lt;/td&gt;
+&lt;td&gt;Jal&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Aakash Patel&lt;/td&gt;
+&lt;td&gt;Achiever&lt;/td&gt;
+&lt;td&gt;Pruthvi&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Jash Zalawadiya&lt;/td&gt;
+&lt;td&gt;Achiever&lt;/td&gt;
+&lt;td&gt;Vayu&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Ankit Patel&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Govind Patel&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Jay Patel&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Mahesh Patel&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Nishant Bhanderi&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Tushar Patel&lt;/td&gt;
+&lt;td&gt;inspirer&lt;/td&gt;
+&lt;td&gt;Ahmedabad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Sanjay Nathani&lt;/td&gt;
+&lt;td&gt;Emerald&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Keval Ramani&lt;/td&gt;
+&lt;td&gt;Emerald&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sagar Jogani&lt;/td&gt;
+&lt;td&gt;Emerald&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hardik Zalavadiya&lt;/td&gt;
+&lt;td&gt;Emerald&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Dharmendra Viradiya&lt;/td&gt;
+&lt;td&gt;Sappire&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Jignesh Nasik&lt;/td&gt;
+&lt;td&gt;Sappire&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Mehul Balochiya&lt;/td&gt;
+&lt;td&gt;Sappire&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Divyang Patel&lt;/td&gt;
+&lt;td&gt;Methan&lt;/td&gt;
+&lt;td&gt;Vadodara&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Jayesh Patel&lt;/td&gt;
+&lt;td&gt;Methan&lt;/td&gt;
+&lt;td&gt;Vadodara&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mr.Vikash Patel&lt;/td&gt;
+&lt;td&gt;Methan&lt;/td&gt;
+&lt;td&gt;Vadodara&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Opal&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Opal&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Opal&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Opal&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zinkal Sheta&lt;/td&gt;
+&lt;td&gt;Pearl&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dilip Chovatiya&lt;/td&gt;
+&lt;td&gt;Pearl&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ankur Vadsak&lt;/td&gt;
+&lt;td&gt;Pearl&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nikunj Khunt&lt;/td&gt;
+&lt;td&gt;Pearl&lt;/td&gt;
+&lt;td&gt;Surat&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Anirudh Sangani&lt;/td&gt;
+&lt;td&gt;Galaxy&lt;/td&gt;
+&lt;td&gt;Pound&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dharmendra Muchhala&lt;/td&gt;
+&lt;td&gt;Galaxy&lt;/td&gt;
+&lt;td&gt;Rupees	Mumbai&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Piyush Kapdiya&lt;/td&gt;
+&lt;td&gt;Galaxy&lt;/td&gt;
+&lt;td&gt;Dollar&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hardik Patel&lt;/td&gt;
+&lt;td&gt;Galaxy&lt;/td&gt;
+&lt;td&gt;Euro&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gita Patel&lt;/td&gt;
+&lt;td&gt;Orain&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lilavti Patel&lt;/td&gt;
+&lt;td&gt;Orain&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;email-id&#34;&gt;Email ID&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -70,6 +491,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;NOTE :&lt;/strong&gt; for any query feel free to contact &lt;strong&gt;&lt;a href=&#34;mailto:info@embeddedart.in&#34;&gt;info@embeddedart.in&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -106,23 +530,6 @@
         
         
         &lt;p&gt;&lt;img src=&#34;DWIN-DMG10600T070_A5WTC.jpg&#34; alt=&#34;image&#34; title=&#34;DMG10600T070_A5WTC&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: EA_0025_V3 Switch PDB</title>
-      <link>https://www.embeddedart.in/blog/2023/01/28/ea_0025_v3-switch-pdb/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.embeddedart.in/blog/2023/01/28/ea_0025_v3-switch-pdb/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;switch-pcb-1.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-1&#34;&gt;
-&lt;img src=&#34;switch-pcb-2.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-2&#34;&gt;
-&lt;img src=&#34;switch-pcb-3.jpg&#34; alt=&#34;image&#34; title=&#34;switch-pcb-3&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>

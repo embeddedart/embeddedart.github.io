@@ -5,13 +5,16 @@
     <loc>https://www.embeddedart.in/docs/alaram-system/</loc>
     <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
+    <loc>https://www.embeddedart.in/docs/rs485-to-tcp-ethernet/</loc>
+  </url><url>
     <loc>https://www.embeddedart.in/docs/bag-packing-controller/</loc>
     <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/elevator-controller/</loc>
-    <lastmod>2023-01-29T14:17:53+05:30</lastmod>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/gsm-motor-starter/</loc>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/docs/io-controller-lan/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
@@ -25,23 +28,26 @@
     <loc>https://www.embeddedart.in/docs/tcp-to-rs-485/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
   </url><url>
-    <loc>https://www.embeddedart.in/blog/embedded-art/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.embeddedart.in/blog/gpbo/</loc>
-    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.embeddedart.in/docs/</loc>
     <lastmod>2023-01-24T23:08:18+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/blog/embedded-art/</loc>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/blog/gpbo/</loc>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/posts/</loc>
     <lastmod>2023-01-29T14:17:53+05:30</lastmod>
   </url><url>
-    <loc>https://www.embeddedart.in/blog/2023/02/10/ea_0025_v3-switch-pdb/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
+    <loc>https://www.embeddedart.in/blog/2023/02/21/apn-name/</loc>
+    <lastmod>2023-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.embeddedart.in/blog/2023/02/10/ea_0025_v3-switch-pcb/</loc>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/2023/02/07/gpbo-detail/</loc>
-    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-15T08:57:42+05:30</lastmod>
   </url><url>
     <loc>https://www.embeddedart.in/blog/2023/02/04/modbus-protocol/</loc>
     <lastmod>2023-02-05T00:14:09+05:30</lastmod>

@@ -90,7 +90,7 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.cbfcd660dfedc8fa62dd0de80ccdba7b.json"
+    data-offline-search-index-json-src="/offline-search-index.cd09802f87019aebc6f7af9177ed15c3.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -156,7 +156,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>2: <a href="#pg-311680e62d3327ff9a969a5ce8a8fe38">Bag Packing Controller</a></li>
+<li>2: <a href="#pg-a1d5938ee6247e7c3dcdc63694a7b513">Alarm System</a></li>
 
 
     
@@ -175,7 +175,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>3: <a href="#pg-832e9c926a67f6e588be217886a14bb6">Elevator Controller</a></li>
+<li>3: <a href="#pg-311680e62d3327ff9a969a5ce8a8fe38">Bag Packing Controller</a></li>
 
 
     
@@ -194,7 +194,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>4: <a href="#pg-69c434e7698d52c0a38cf31541ccb007">GSM Motor Starter</a></li>
+<li>4: <a href="#pg-832e9c926a67f6e588be217886a14bb6">Elevator Controller</a></li>
 
 
     
@@ -213,7 +213,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>5: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
+<li>5: <a href="#pg-69c434e7698d52c0a38cf31541ccb007">GSM Motor Starter</a></li>
 
 
     
@@ -232,7 +232,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>6: <a href="#pg-df7b8de12229ac521ce43dc8963d5b9b">LED Display Control Card</a></li>
+<li>6: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
 
 
     
@@ -251,7 +251,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>7: <a href="#pg-64e47605ee0d9e9d5e57a888cfe1cb6e">RVM With LoadCell</a></li>
+<li>7: <a href="#pg-df7b8de12229ac521ce43dc8963d5b9b">LED Display Control Card</a></li>
 
 
     
@@ -270,7 +270,26 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>8: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP/IP to RS-485 Converter</a></li>
+<li>8: <a href="#pg-64e47605ee0d9e9d5e57a888cfe1cb6e">RVM With LoadCell</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>9: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP Protocol</a></li>
 
 
     
@@ -394,7 +413,77 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-311680e62d3327ff9a969a5ce8a8fe38">2 - Bag Packing Controller</h1>
+	<h1 id="pg-a1d5938ee6247e7c3dcdc63694a7b513">2 - Alarm System</h1>
+    <div class="lead">Alarm System Project Related Document.</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<p><strong>Note :</strong> 	No device id check in command, because card work as master. For More clarification check code.</p>
+<br>
+<h1 id="master-card">Master Card:</h1>
+<p>Digital Input Voltage = GND</p>
+<h2 id="protocol">Protocol</h2>
+<pre tabindex="0"><code>%{13-GETTBL0000}!            =&gt; get total slave device number
+</code></pre><pre tabindex="0"><code>%{13-TBL0000+00005}!         =&gt; set slave device count, default 5
+</code></pre><pre tabindex="0"><code>%{13-GETTBL0001}!            =&gt; time between two master command, default 5, 5 x 100mS = 500mS
+</code></pre><pre tabindex="0"><code>%{13-TBL0001+00010}!         =&gt; set time between two master command
+</code></pre><pre tabindex="0"><code>%{13-GETTBL0002}!            =&gt; Get link time out value
+</code></pre><pre tabindex="0"><code>%{13-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = 00015)
+</code></pre><h1 id="slave-card-">Slave Card :</h1>
+<ul>
+<li>Power Supply : 12V DC</li>
+<li>RS-485</li>
+<li>2 Digital Input, 2 Digital Output</li>
+</ul>
+<h2 id="protocol-1">Protocol</h2>
+<pre tabindex="0"><code>%{??-INFO}!                  =&gt; To check device firmware version
+</code></pre><pre tabindex="0"><code>%{??-GETDID}!                =&gt; Get Device ID
+</code></pre><pre tabindex="0"><code>%{??-DID01}!                 =&gt; always set device id, 00, 01, 02, 03, 04
+</code></pre><pre tabindex="0"><code>%{??-GETTBL0002}!            =&gt; Get link time out value
+</code></pre><pre tabindex="0"><code>%{??-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = value)
+</code></pre><br>
+<h1 id="images">Images</h1>
+<div class="container">
+<p><img src="connection-detail.jpeg" alt="image"></p>
+</div>
+<div class="container">
+<p><img src="board-dimensions.jpeg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-311680e62d3327ff9a969a5ce8a8fe38">3 - Bag Packing Controller</h1>
     <div class="lead">Bag packing controller</div>
 	<!--
 
@@ -451,7 +540,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-832e9c926a67f6e588be217886a14bb6">3 - Elevator Controller</h1>
+	<h1 id="pg-832e9c926a67f6e588be217886a14bb6">4 - Elevator Controller</h1>
     <div class="lead">Embedded Art - Universal Elevator Controller  Elevator parts, Process Control Instruments &amp; Elevator Controller Cards Manufacturer from Ahmedabad, Gujarat, India</div>
 	<!--
 
@@ -518,7 +607,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-69c434e7698d52c0a38cf31541ccb007">4 - GSM Motor Starter</h1>
+	<h1 id="pg-69c434e7698d52c0a38cf31541ccb007">5 - GSM Motor Starter</h1>
     <div class="lead">GSM mobile motor starter, 2G, 4G</div>
 	<!--
 
@@ -575,7 +664,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">5 - IO Controller LAN</h1>
+	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">6 - IO Controller LAN</h1>
     <div class="lead">IO Controller with LAN, RS-485, RS-232, RTC, 8 Digital Input, 8 Digital Output Support.</div>
 	<!--
 
@@ -632,7 +721,7 @@ We provide Custom firmware and hardware support</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">6 - LED Display Control Card</h1>
+	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">7 - LED Display Control Card</h1>
     <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
 	<!--
 
@@ -702,7 +791,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-64e47605ee0d9e9d5e57a888cfe1cb6e">7 - RVM With LoadCell</h1>
+	<h1 id="pg-64e47605ee0d9e9d5e57a888cfe1cb6e">8 - RVM With LoadCell</h1>
     <div class="lead">RVM With LoadCell</div>
 	<!--
 
@@ -713,7 +802,7 @@ scroll enable   %{??-TBL0021+00001}!
 </div>
 
 -->
-<h2 id="features-">Features :</h2>
+<h2 id="features-"><strong>Features</strong> :</h2>
 <ul>
 <li>Power Supply : 12V DC</li>
 <li>6 Digital Input</li>
@@ -721,7 +810,194 @@ scroll enable   %{??-TBL0021+00001}!
 <li>Two RS-485 communication support</li>
 <li>Current Measurement</li>
 </ul>
+<h2 id="protocol-"><strong>Protocol</strong> :</h2>
+<pre tabindex="0"><code>%{??-INFO}!         ==&gt; read firware version
+</code></pre><pre tabindex="0"><code>%{??-GETVOLT}!      ==&gt; print debug value in terminal
+</code></pre><pre tabindex="0"><code>%{??-GETTBLxxxx}!   ==&gt; xxxx = address, get address value
+</code></pre><pre tabindex="0"><code>%{??-TBLxxxx+XXXXX}! ==&gt; xxxx = address , XXXXX = value, set value to address
+</code></pre><h3 id="memory-detail-">Memory Detail :</h3>
+<table>
+<thead>
+<tr>
+<th>PARAMETER</th>
+<th>ADDRESS</th>
+<th>DEFAULT VALUE</th>
+<th>UNIT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TOTAL_JAM_COUNT</td>
+<td>23</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td>FORWARD_RUN_TIME_LIMIT</td>
+<td>24</td>
+<td>10</td>
+<td>Time in seconds</td>
+</tr>
+<tr>
+<td>REVERSE_RUN_TIME_LIMIT</td>
+<td>25</td>
+<td>1</td>
+<td>Time in seconds</td>
+</tr>
+<tr>
+<td>FWD_JAM_TIME</td>
+<td>26</td>
+<td>240</td>
+<td>Time in seconds</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MOTOR_JAM_CURRENT</td>
+<td>27</td>
+<td>45</td>
+<td>For New Bharat 2HP</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>25</td>
+<td>For Crompton 2HP - 6956</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>22</td>
+<td>For Crompton 2HP - 6823</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>REVERSE_RUN_BOTTLE_COUNT</td>
+<td>28</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CALIBRATION_WT_1</td>
+<td>29</td>
+<td>1026</td>
+<td>lower byte  = x % 256</td>
+</tr>
+<tr>
+<td>CALIBRATION_WT_2</td>
+<td>30</td>
+<td></td>
+<td>higher byte = x / 256</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DC_FWD_RUN_TIME</td>
+<td>31</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td>DC_REV_RUN_TIME</td>
+<td>32</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>OVER_WEIGHT</td>
+<td>33</td>
+<td>85</td>
+<td></td>
+</tr>
+<tr>
+<td>TOTAL_DC_REV_RUN_COUNT</td>
+<td>34</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>BOTTLE_CONT_SNS_TIME</td>
+<td>35</td>
+<td>180</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LOAD_CELL_ERR_WT_1</td>
+<td>36</td>
+<td>5000</td>
+<td>lower byte  = x % 256</td>
+</tr>
+<tr>
+<td>LOAD_CELL_ERR_WT_2</td>
+<td>37</td>
+<td></td>
+<td>higher byte = x / 256</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LOAD_CELL_ERR_WT_TIME</td>
+<td>38</td>
+<td>240</td>
+<td></td>
+</tr>
+<tr>
+<td>BOTTLE_COUNT_AUTO_TARE</td>
+<td>39</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SENSOR_SNS_TIME</td>
+<td>40</td>
+<td>40</td>
+<td>minimum time required for accepting multiple sensor input.</td>
+</tr>
+<tr>
+<td>BIN_FULL_SNS_TIME</td>
+<td>41</td>
+<td>5</td>
+<td>bin full flag valid if sensor continuous arrive for this much time.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="wiring-detail-">Wiring Detail :</h3>
+<p>Note : check PCB version first</p>
 <div class="container">
 <p><img src="wiring-detail-1.jpg" alt="image"></p>
 </div>
@@ -756,20 +1032,9 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">8 - TCP/IP to RS-485 Converter</h1>
-    <div class="lead">RS485 to TCP/IP converter integrated with a robust system and network management.</div>
-	<!--
-
-
-<div class="pageinfo pageinfo-primary">
-<p>This is a placeholder page that shows you how to use this template site.</p>
-
-</div>
-
--->
-<div class="container">
-<p><img src="TCP-IP-to-RS-485-1.jpg" alt="image"></p>
-</div>
+	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">9 - TCP Protocol</h1>
+    <div class="lead">TCP To RS-485</div>
+	<h2 id="protocol">Protocol</h2>
 <hr>
 
 </div>

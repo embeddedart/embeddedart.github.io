@@ -35,8 +35,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.def2cdda5cfcd95d9660c969a68946395435ad5fc75402be473d9995c7e926b3.css" as="style">
-<link href="/scss/main.min.def2cdda5cfcd95d9660c969a68946395435ad5fc75402be473d9995c7e926b3.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.scss" as="style">
+<link href="/scss/main.scss" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -46,6 +46,7 @@
   src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
   integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
   crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/prism.css"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6SQ1WPN7Y"></script>
 <script>
 var doNotTrack = false;
@@ -90,7 +91,7 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.cd09802f87019aebc6f7af9177ed15c3.json"
+    data-offline-search-index-json-src="/offline-search-index.9211143bf4c505d55e1e5759e37eaf4e.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -156,7 +157,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>2: <a href="#pg-a1d5938ee6247e7c3dcdc63694a7b513">Alarm System</a></li>
+<li>2: <a href="#pg-311680e62d3327ff9a969a5ce8a8fe38">Bag Packing Controller</a></li>
 
 
     
@@ -175,7 +176,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>3: <a href="#pg-311680e62d3327ff9a969a5ce8a8fe38">Bag Packing Controller</a></li>
+<li>3: <a href="#pg-832e9c926a67f6e588be217886a14bb6">Elevator Controller</a></li>
 
 
     
@@ -194,7 +195,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>4: <a href="#pg-832e9c926a67f6e588be217886a14bb6">Elevator Controller</a></li>
+<li>4: <a href="#pg-69c434e7698d52c0a38cf31541ccb007">GSM Motor Starter</a></li>
 
 
     
@@ -213,7 +214,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>5: <a href="#pg-69c434e7698d52c0a38cf31541ccb007">GSM Motor Starter</a></li>
+<li>5: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
 
 
     
@@ -232,7 +233,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>6: <a href="#pg-f6370c5904ef4c281558577747e1e9f8">IO Controller LAN</a></li>
+<li>6: <a href="#pg-1a047eeb9baef47123ff85477f228af4">IOT Gateway Protocol</a></li>
 
 
     
@@ -270,7 +271,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>8: <a href="#pg-64e47605ee0d9e9d5e57a888cfe1cb6e">RVM With LoadCell</a></li>
+<li>8: <a href="#pg-057193c2c9d4a82fa91a45aea85715f7">LED Display Control Card Modbus</a></li>
 
 
     
@@ -289,7 +290,45 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>9: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP Protocol</a></li>
+<li>9: <a href="#pg-a1d5938ee6247e7c3dcdc63694a7b513">RS485-To-TCP-Ethernet</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>10: <a href="#pg-64e47605ee0d9e9d5e57a888cfe1cb6e">RVM With LoadCell</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>11: <a href="#pg-e66e5b5bb194557d52e6d72940f29d95">TCP Protocol</a></li>
 
 
     
@@ -359,25 +398,25 @@ This is the multi-page printable view of this section.
 <h1 id="master-card">Master Card:</h1>
 <p>Digital Input Voltage = GND</p>
 <h2 id="protocol">Protocol</h2>
-<pre tabindex="0"><code>%{13-GETTBL0000}!            =&gt; get total slave device number
-</code></pre><pre tabindex="0"><code>%{13-TBL0000+00005}!         =&gt; set slave device count, default 5
-</code></pre><pre tabindex="0"><code>%{13-GETTBL0001}!            =&gt; time between two master command, default 5, 5 x 100mS = 500mS
-</code></pre><pre tabindex="0"><code>%{13-TBL0001+00010}!         =&gt; set time between two master command
-</code></pre><pre tabindex="0"><code>%{13-GETTBL0002}!            =&gt; Get link time out value
-</code></pre><pre tabindex="0"><code>%{13-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = 00015)
-</code></pre><h1 id="slave-card-">Slave Card :</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-GETTBL0000}!            =&gt; get total slave device number
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-TBL0000+00005}!         =&gt; set slave device count, default 5
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-GETTBL0001}!            =&gt; time between two master command, default 5, 5 x 100mS = 500mS
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-TBL0001+00010}!         =&gt; set time between two master command
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-GETTBL0002}!            =&gt; Get link time out value
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{13-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = 00015)
+</span></span></code></pre></div><h1 id="slave-card-">Slave Card :</h1>
 <ul>
 <li>Power Supply : 12V DC</li>
 <li>RS-485</li>
 <li>2 Digital Input, 2 Digital Output</li>
 </ul>
 <h2 id="protocol-1">Protocol</h2>
-<pre tabindex="0"><code>%{??-INFO}!                  =&gt; To check device firmware version
-</code></pre><pre tabindex="0"><code>%{??-GETDID}!                =&gt; Get Device ID
-</code></pre><pre tabindex="0"><code>%{??-DID01}!                 =&gt; always set device id, 00, 01, 02, 03, 04
-</code></pre><pre tabindex="0"><code>%{??-GETTBL0002}!            =&gt; Get link time out value
-</code></pre><pre tabindex="0"><code>%{??-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = value)
-</code></pre><br>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-INFO}!                  =&gt; To check device firmware version
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETDID}!                =&gt; Get Device ID
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-DID01}!                 =&gt; always set device id, 00, 01, 02, 03, 04
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETTBL0002}!            =&gt; Get link time out value
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = value)
+</span></span></code></pre></div><br>
 <h1 id="images">Images</h1>
 <div class="container">
 <p><img src="connection-detail.jpeg" alt="image"></p>
@@ -413,77 +452,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-a1d5938ee6247e7c3dcdc63694a7b513">2 - Alarm System</h1>
-    <div class="lead">Alarm System Project Related Document.</div>
-	<!--
-
-
-<div class="pageinfo pageinfo-primary">
-<p>This is a placeholder page that shows you how to use this template site.</p>
-
-</div>
-
--->
-<p><strong>Note :</strong> 	No device id check in command, because card work as master. For More clarification check code.</p>
-<br>
-<h1 id="master-card">Master Card:</h1>
-<p>Digital Input Voltage = GND</p>
-<h2 id="protocol">Protocol</h2>
-<pre tabindex="0"><code>%{13-GETTBL0000}!            =&gt; get total slave device number
-</code></pre><pre tabindex="0"><code>%{13-TBL0000+00005}!         =&gt; set slave device count, default 5
-</code></pre><pre tabindex="0"><code>%{13-GETTBL0001}!            =&gt; time between two master command, default 5, 5 x 100mS = 500mS
-</code></pre><pre tabindex="0"><code>%{13-TBL0001+00010}!         =&gt; set time between two master command
-</code></pre><pre tabindex="0"><code>%{13-GETTBL0002}!            =&gt; Get link time out value
-</code></pre><pre tabindex="0"><code>%{13-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = 00015)
-</code></pre><h1 id="slave-card-">Slave Card :</h1>
-<ul>
-<li>Power Supply : 12V DC</li>
-<li>RS-485</li>
-<li>2 Digital Input, 2 Digital Output</li>
-</ul>
-<h2 id="protocol-1">Protocol</h2>
-<pre tabindex="0"><code>%{??-INFO}!                  =&gt; To check device firmware version
-</code></pre><pre tabindex="0"><code>%{??-GETDID}!                =&gt; Get Device ID
-</code></pre><pre tabindex="0"><code>%{??-DID01}!                 =&gt; always set device id, 00, 01, 02, 03, 04
-</code></pre><pre tabindex="0"><code>%{??-GETTBL0002}!            =&gt; Get link time out value
-</code></pre><pre tabindex="0"><code>%{??-TBL0002+00015}!         =&gt; set link timeout value (XXXXX = value)
-</code></pre><br>
-<h1 id="images">Images</h1>
-<div class="container">
-<p><img src="connection-detail.jpeg" alt="image"></p>
-</div>
-<div class="container">
-<p><img src="board-dimensions.jpeg" alt="image"></p>
-</div>
-<hr>
-
-</div>
-
-
-
-    
-      
-  
-  
-  
-  
-
-  
-  
-
-  
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-311680e62d3327ff9a969a5ce8a8fe38">3 - Bag Packing Controller</h1>
+	<h1 id="pg-311680e62d3327ff9a969a5ce8a8fe38">2 - Bag Packing Controller</h1>
     <div class="lead">Bag packing controller</div>
 	<!--
 
@@ -540,7 +509,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-832e9c926a67f6e588be217886a14bb6">4 - Elevator Controller</h1>
+	<h1 id="pg-832e9c926a67f6e588be217886a14bb6">3 - Elevator Controller</h1>
     <div class="lead">Embedded Art - Universal Elevator Controller  Elevator parts, Process Control Instruments &amp; Elevator Controller Cards Manufacturer from Ahmedabad, Gujarat, India</div>
 	<!--
 
@@ -607,7 +576,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-69c434e7698d52c0a38cf31541ccb007">5 - GSM Motor Starter</h1>
+	<h1 id="pg-69c434e7698d52c0a38cf31541ccb007">4 - GSM Motor Starter</h1>
     <div class="lead">GSM mobile motor starter, 2G, 4G</div>
 	<!--
 
@@ -664,7 +633,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">6 - IO Controller LAN</h1>
+	<h1 id="pg-f6370c5904ef4c281558577747e1e9f8">5 - IO Controller LAN</h1>
     <div class="lead">IO Controller with LAN, RS-485, RS-232, RTC, 8 Digital Input, 8 Digital Output Support.</div>
 	<!--
 
@@ -721,8 +690,8 @@ We provide Custom firmware and hardware support</p>
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">7 - LED Display Control Card</h1>
-    <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
+	<h1 id="pg-1a047eeb9baef47123ff85477f228af4">6 - IOT Gateway Protocol</h1>
+    <div class="lead">IOT Gateway Protocol, 4G, LAN, WiFi, MQTT, all configuration command</div>
 	<!--
 
 
@@ -732,38 +701,84 @@ We provide Custom firmware and hardware support</p>
 </div>
 
 -->
-<h2 id="features-">Features :</h2>
-<ul>
-<li>Power Supply : 5V-12V DC</li>
-<li>RS-485 / RS-232</li>
-<li>RTC (real time clock) , Temperature Sensor, Digital Input, etc&hellip; can be added</li>
-</ul>
-<p>For industrial application all customers requirement is different so we can provide <strong>custom solution</strong> for led display.
-<strong>Contact us for any help</strong>.</p>
-<div class="container">
-<p><img src="led-display-control-card-1.jpg" alt="image"></p>
-</div>
-<div class="container">
-<p><img src="led-display-control-card-2.jpg" alt="image"></p>
-</div>
-<div class="container">
-<p><img src="led-display-control-card-3.jpg" alt="image"></p>
-</div>
-<h1 id="protocol">Protocol</h1>
-<pre tabindex="0"><code>%{??-INFO}!
-</code></pre><pre tabindex="0"><code>%{??-LN1EMBEDDED ART}!
-</code></pre><pre tabindex="0"><code>%{??-LN2EMBEDDED ART}!
-</code></pre><pre tabindex="0"><code>set DID , this is mandatory to get proper reply
-%{??-DID13}!
-</code></pre><pre tabindex="0"><code>%{??-GETDID}!
-</code></pre><pre tabindex="0"><code>%{??-GETLED}!
-</code></pre><pre tabindex="0"><code>scroll enable disable
+<h1 id="mqtt-configuration-from-server-command-">MQTT Configuration From Server Command :</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>To test communication with hardware
+</span></span><span style="display:flex;"><span>Send : 
+</span></span><span style="display:flex;"><span>{&#34;method&#34;:&#34;test&#34;}
+</span></span><span style="display:flex;"><span>Response : 
+</span></span><span style="display:flex;"><span>{&#34;response&#34;:&#34;ok&#34;}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Write multiple data to device using modbus function code 16
+</span></span><span style="display:flex;"><span>you can write any quantity as per slave device support
+</span></span><span style="display:flex;"><span>Send :
+</span></span><span style="display:flex;"><span>          {&#34;method&#34;:&#34;fn16&#34;, &#34;params&#34;:&#34;modbus id, fn code, start add, qty,data 1, data 2, data 3&#34;}
+</span></span><span style="display:flex;"><span>Example : {&#34;method&#34;:&#34;fn16&#34;, &#34;params&#34;:&#34;1        , 16     , 0        , 3  ,     1,      2,      3&#34;}
+</span></span><span style="display:flex;"><span>Response :
+</span></span><span style="display:flex;"><span>{&#34;response&#34;:&#34;fn16 ok&#34;}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Read data from modbus slave device
+</span></span><span style="display:flex;"><span>Command Description
+</span></span><span style="display:flex;"><span>{&#34;method&#34;:&#34;txn&#34;, &#34;params&#34;:&#34;txn no, txn flag, modbus id, function code, start add , qty, poll interval, txn timeout, txn retry count&#34;}
+</span></span><span style="display:flex;"><span>txn no          = number of slave device configuration supported in hardware
+</span></span><span style="display:flex;"><span>txn flag        = enable = 1 / disable = 0
+</span></span><span style="display:flex;"><span>modbus id       = slave device id
+</span></span><span style="display:flex;"><span>function code   = 3 or 4
+</span></span><span style="display:flex;"><span>start add       = start address
+</span></span><span style="display:flex;"><span>qty             = number of register read from device
+</span></span><span style="display:flex;"><span>poll interval   = delay between two command
+</span></span><span style="display:flex;"><span>txn timeout     = slave device response timeout
+</span></span><span style="display:flex;"><span>txn retry count = if response not receive, retry count
+</span></span><span style="display:flex;"><span>Send :
+</span></span><span style="display:flex;"><span>Example : {&#34;method&#34;:&#34;txn&#34;, &#34;params&#34;:&#34;0,1,1,3,0,10,2000,1000,1&#34;}
+</span></span><span style="display:flex;"><span>Response :
+</span></span><span style="display:flex;"><span>{&#34;response&#34;:&#34;txn ok&#34;}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sync time from internet server
+</span></span><span style="display:flex;"><span>Send :
+</span></span><span style="display:flex;"><span>{&#34;method&#34;:&#34;time sync&#34;}
+</span></span><span style="display:flex;"><span>Response :
+</span></span><span style="display:flex;"><span>{&#34;response&#34;:&#34;time sync ok&#34;}
+</span></span></code></pre></div><h1 id="lan-card-mqtt-configuration-parameter-">LAN Card, MQTT Configuration Parameter :</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Firmware Version
+</span></span><span style="display:flex;"><span>%{,??,INFO,}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set MQTT Server
+</span></span><span style="display:flex;"><span>%{,??,MQTTSERVER,server ip,}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set MQTT User
+</span></span><span style="display:flex;"><span>%{,??,MQTTUSER,user name,}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set MQTT Password
+</span></span><span style="display:flex;"><span>%{,??,MQTTPASS,password,}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set MQTT Subscriber Topic
+</span></span><span style="display:flex;"><span>%{,??,MQTTTOPICSUB,subscriber-topic,}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set MQTT Publish Topic
+</span></span><span style="display:flex;"><span>%{,??,MQTTTOPICPUB,publish-topic,}!
+</span></span></code></pre></div><!--
+# Images
+-->
+<!--
 
-%{??-GETTBL0021}!
+<div class="container">
 
-scroll disable  %{??-TBL0021+00000}!
-scroll enable   %{??-TBL0021+00001}!
-</code></pre><hr>
+![image](led-display-control-card-1.jpg)
+
+</div>
+
+-->
+<!-- 
+
+<div class="container">
+
+![image](led-display-control-card-2.jpg)
+
+</div>
+
+-->
+<!--
+
+<div class="container">
+
+![image](led-display-control-card-3.jpg)
+
+</div>
+
+-->
+<hr>
 
 </div>
 
@@ -791,7 +806,193 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-64e47605ee0d9e9d5e57a888cfe1cb6e">8 - RVM With LoadCell</h1>
+	<h1 id="pg-df7b8de12229ac521ce43dc8963d5b9b">7 - LED Display Control Card</h1>
+    <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<h2 id="features-">Features :</h2>
+<ul>
+<li>Power Supply : 5V-12V DC</li>
+<li>RS-485 / RS-232</li>
+<li>RTC (real time clock) , Temperature Sensor, Digital Input, etc&hellip; can be added</li>
+</ul>
+<p>For industrial application all customers requirement is different so we can provide <strong>custom solution</strong> for led display.
+<strong>Contact us for any help</strong>.</p>
+<h1 id="protocol">Protocol</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-INFO}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-LN1EMBEDDED ART}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-LN2EMBEDDED ART}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>set DID , this is mandatory to get proper reply
+</span></span><span style="display:flex;"><span>%{??-DID13}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETDID}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETLED}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Line 1 scroll enable/disable
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>to get scroll enable/disable    %{??-GETTBL0021}!
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>scroll disable  %{??-TBL0021+00000}!
+</span></span><span style="display:flex;"><span>scroll enable   %{??-TBL0021+00001}!
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Line 2 scroll enable/disable
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>to get scroll enable/disable    %{??-GETTBL0024}!   
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>scroll disable  %{??-TBL0024+00000}!
+</span></span><span style="display:flex;"><span>scroll enable   %{??-TBL0024+00001}!
+</span></span></code></pre></div><h1 id="images">Images</h1>
+<div class="container">
+<p><img src="led-display-control-card-1.jpg" alt="image"></p>
+</div>
+<!-- 
+
+<div class="container">
+
+![image](led-display-control-card-2.jpg)
+
+</div>
+
+-->
+<div class="container">
+<p><img src="led-display-control-card-3.jpg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-057193c2c9d4a82fa91a45aea85715f7">8 - LED Display Control Card Modbus</h1>
+    <div class="lead">LED Control Card with RS-485 communication, modbus support, PLC, real time data display.</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<h2 id="features-">Features :</h2>
+<ul>
+<li>Power Supply : 5V-12V DC</li>
+<li>RS-485 / RS-232</li>
+<li>RTC (real time clock) , Temperature Sensor, Digital Input, etc&hellip; can be added</li>
+</ul>
+<p>For industrial application all customers requirement is different so we can provide <strong>custom solution</strong> for led display.
+<strong>Contact us for any help</strong>.</p>
+<h1 id="protocol">Protocol</h1>
+<h1 id="images">Images</h1>
+<div class="container">
+<p><img src="led-display-control-card-1.jpg" alt="image"></p>
+</div>
+<!-- 
+
+<div class="container">
+
+![image](led-display-control-card-2.jpg)
+
+</div>
+
+-->
+<div class="container">
+<p><img src="led-display-control-card-3.jpg" alt="image"></p>
+</div>
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-a1d5938ee6247e7c3dcdc63694a7b513">9 - RS485-To-TCP-Ethernet</h1>
+    <div class="lead">RS485-To-TCP-Ethernet Project Related Document.</div>
+	<!--
+
+
+<div class="pageinfo pageinfo-primary">
+<p>This is a placeholder page that shows you how to use this template site.</p>
+
+</div>
+
+-->
+<hr>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-64e47605ee0d9e9d5e57a888cfe1cb6e">10 - RVM With LoadCell</h1>
     <div class="lead">RVM With LoadCell</div>
 	<!--
 
@@ -811,11 +1012,11 @@ scroll enable   %{??-TBL0021+00001}!
 <li>Current Measurement</li>
 </ul>
 <h2 id="protocol-"><strong>Protocol</strong> :</h2>
-<pre tabindex="0"><code>%{??-INFO}!         ==&gt; read firware version
-</code></pre><pre tabindex="0"><code>%{??-GETVOLT}!      ==&gt; print debug value in terminal
-</code></pre><pre tabindex="0"><code>%{??-GETTBLxxxx}!   ==&gt; xxxx = address, get address value
-</code></pre><pre tabindex="0"><code>%{??-TBLxxxx+XXXXX}! ==&gt; xxxx = address , XXXXX = value, set value to address
-</code></pre><h3 id="memory-detail-">Memory Detail :</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-INFO}!         ==&gt; read firware version
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETVOLT}!      ==&gt; print debug value in terminal
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETTBLxxxx}!   ==&gt; xxxx = address, get address value
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-TBLxxxx+XXXXX}! ==&gt; xxxx = address , XXXXX = value, set value to address
+</span></span></code></pre></div><h3 id="memory-detail-">Memory Detail :</h3>
 <table>
 <thead>
 <tr>
@@ -1032,7 +1233,7 @@ scroll enable   %{??-TBL0021+00001}!
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">9 - TCP Protocol</h1>
+	<h1 id="pg-e66e5b5bb194557d52e6d72940f29d95">11 - TCP Protocol</h1>
     <div class="lead">TCP To RS-485</div>
 	<h2 id="protocol">Protocol</h2>
 <hr>
@@ -1130,6 +1331,7 @@ scroll enable   %{??-TBL0021+00001}!
 
     </div>
     <script src="/js/main.min.f1a20e761a85478d0ce3298a01e295324be8858ef8f2d2baac6737980799b320.js" integrity="sha256-8aIOdhqFR40M4ymKAeKVMkvohY748tK6rGc3mAeZsyA=" crossorigin="anonymous"></script>
+<script src='/js/prism.js'></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

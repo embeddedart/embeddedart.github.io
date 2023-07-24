@@ -77,33 +77,17 @@
         
         &lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
 &lt;p&gt;In which ever directory you are, this line below will create a virtualenv there, you can name it anything.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; virtualenv venv
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt; virtualenv venv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;p&gt;Now if you are in same directory then type,&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; venv\Scripts\activate
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to deactivate&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;deactivate
-&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt; venv\Scripts\activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to deactivate&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deactivate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
 &lt;p&gt;&lt;strong&gt;Note : Enable execution policy to run activate scripts. (Administrator Privilege Required)&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set-executionpolicy remotesigned
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: SIM7600 AT Command</title>
-      <link>https://www.embeddedart.in/blog/2023/01/28/sim7600-at-command/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.embeddedart.in/blog/2023/01/28/sim7600-at-command/</guid>
-      <description>
-        
-        
-        &lt;h3 id=&#34;mqtt-at-command&#34;&gt;MQTT AT Command&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;AT
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;set-executionpolicy remotesigned
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 
       </description>
     </item>
@@ -118,8 +102,8 @@
         
         
         &lt;p&gt;to start server run below command in terminal and currunet folder can be seen from web browser&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python -m http.server 7896
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m http.server 7896
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

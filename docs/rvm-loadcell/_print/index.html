@@ -39,8 +39,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.def2cdda5cfcd95d9660c969a68946395435ad5fc75402be473d9995c7e926b3.css" as="style">
-<link href="/scss/main.min.def2cdda5cfcd95d9660c969a68946395435ad5fc75402be473d9995c7e926b3.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.scss" as="style">
+<link href="/scss/main.scss" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -50,6 +50,7 @@
   src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
   integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
   crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/prism.css"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6SQ1WPN7Y"></script>
 <script>
 var doNotTrack = false;
@@ -94,7 +95,7 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.cd09802f87019aebc6f7af9177ed15c3.json"
+    data-offline-search-index-json-src="/offline-search-index.9211143bf4c505d55e1e5759e37eaf4e.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -161,11 +162,11 @@ This is the multi-page printable view of this section.
 <li>Current Measurement</li>
 </ul>
 <h2 id="protocol-"><strong>Protocol</strong> :</h2>
-<pre tabindex="0"><code>%{??-INFO}!         ==&gt; read firware version
-</code></pre><pre tabindex="0"><code>%{??-GETVOLT}!      ==&gt; print debug value in terminal
-</code></pre><pre tabindex="0"><code>%{??-GETTBLxxxx}!   ==&gt; xxxx = address, get address value
-</code></pre><pre tabindex="0"><code>%{??-TBLxxxx+XXXXX}! ==&gt; xxxx = address , XXXXX = value, set value to address
-</code></pre><h3 id="memory-detail-">Memory Detail :</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-INFO}!         ==&gt; read firware version
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETVOLT}!      ==&gt; print debug value in terminal
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-GETTBLxxxx}!   ==&gt; xxxx = address, get address value
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>%{??-TBLxxxx+XXXXX}! ==&gt; xxxx = address , XXXXX = value, set value to address
+</span></span></code></pre></div><h3 id="memory-detail-">Memory Detail :</h3>
 <table>
 <thead>
 <tr>
@@ -443,6 +444,7 @@ This is the multi-page printable view of this section.
 
     </div>
     <script src="/js/main.min.f1a20e761a85478d0ce3298a01e295324be8858ef8f2d2baac6737980799b320.js" integrity="sha256-8aIOdhqFR40M4ymKAeKVMkvohY748tK6rGc3mAeZsyA=" crossorigin="anonymous"></script>
+<script src='/js/prism.js'></script>
 <script src='/js/tabpane-persist.js'></script>
 
   </body>

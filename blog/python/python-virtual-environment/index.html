@@ -13,16 +13,16 @@
         <meta name="author" content="Brijesh Khokhar ([@khokhar_brijesh](https://twitter.com/khokhar_brijesh))">
       
       
-        <link rel="canonical" href="https://docs.embeddedart.in/blog/python-virtual-environment/">
+        <link rel="canonical" href="https://docs.embeddedart.in/blog/python/python-virtual-environment/">
       
       
         <link rel="prev" href="../python-file-server/">
       
       
-        <link rel="next" href="../stm32-cubeprogrammer/">
+        <link rel="next" href="../python-PyQt-GUI/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
     
     
       
@@ -30,10 +30,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.eebd395e.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -49,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -94,7 +94,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Embedded Art Documentation" class="md-header__button md-logo" aria-label="Embedded Art Documentation" data-md-component="logo">
+    <a href="../../.." title="Embedded Art Documentation" class="md-header__button md-logo" aria-label="Embedded Art Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -196,7 +196,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -211,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../products/IOT-Gateway-Protocol/" class="md-tabs__link">
+      <a href="../../../products/IOT-Gateway-Protocol/" class="md-tabs__link">
         Products
       </a>
     </li>
@@ -229,7 +229,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link md-tabs__link--active">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         Blog
       </a>
     </li>
@@ -263,7 +263,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Embedded Art Documentation" class="md-nav__button md-logo" aria-label="Embedded Art Documentation" data-md-component="logo">
+    <a href="../../.." title="Embedded Art Documentation" class="md-nav__button md-logo" aria-label="Embedded Art Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -282,7 +282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -324,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/IOT-Gateway-Protocol/" class="md-nav__link">
+      <a href="../../../products/IOT-Gateway-Protocol/" class="md-nav__link">
         IOT Gateway Protocol
       </a>
     </li>
@@ -365,7 +365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/elevator-controller/" class="md-nav__link">
+      <a href="../../../products/elevator-controller/" class="md-nav__link">
         Elevator Controller
       </a>
     </li>
@@ -379,8 +379,56 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/elevator-control-panel/" class="md-nav__link">
+      <a href="../../../products/elevator-control-panel/" class="md-nav__link">
         Elevator Control Panel
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          LED Display
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          LED Display
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../products/led-display-control-card/" class="md-nav__link">
+        LED Display Control Card
       </a>
     </li>
   
@@ -437,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         Blog
       </a>
     </li>
@@ -451,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../GPBO/" class="md-nav__link">
+      <a href="../../GPBO/" class="md-nav__link">
         GPBO
       </a>
     </li>
@@ -465,7 +513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../APN-Name/" class="md-nav__link">
+      <a href="../../APN-Name/" class="md-nav__link">
         APN Name
       </a>
     </li>
@@ -479,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dwin-7inch-display/" class="md-nav__link">
+      <a href="../../dwin-7inch-display/" class="md-nav__link">
         DWIN 7 Inch Display
       </a>
     </li>
@@ -493,13 +541,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../modbus-protocol/" class="md-nav__link">
+      <a href="../../modbus-protocol/" class="md-nav__link">
         Modbus Protocol
       </a>
     </li>
   
 
             
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -572,9 +649,16 @@
   
   
     <li class="md-nav__item">
-      <a href="../sim7600-4g command/index.md" class="md-nav__link">
-        SIM7600 AT Command
+      <a href="../python-PyQt-GUI/" class="md-nav__link">
+        Python PyQt GUI
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -586,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stm32-cubeprogrammer/" class="md-nav__link">
+      <a href="../../stm32-cubeprogrammer/" class="md-nav__link">
         STM32 cubeProgrammer
       </a>
     </li>
@@ -605,17 +689,17 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
       
       
       
-        <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
           Embedded Art
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_3_10">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_8">
           <span class="md-nav__icon md-icon"></span>
           Embedded Art
         </label>
@@ -627,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../embedded-art/switch-pcb-solder-guide-EA_0025_V3/" class="md-nav__link">
+      <a href="../../embedded-art/switch-pcb-solder-guide-EA_0025_V3/" class="md-nav__link">
         EA_0025_V3 Switch PCB
       </a>
     </li>
@@ -698,11 +782,11 @@
 
 <h2 id="windows">Windows</h2>
 <p>In which ever directory you are, this line below will create a virtualenv there, you can name it anything.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&gt; virtualenv venv
-</code></pre></div></p>
-<p><br></p>
-<p>Now if you are in same directory then type,
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>&gt; venv\Scripts\activate
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>virtualenv venv
+</code></pre></div>
+<br>
+Now if you are in same directory then type,
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>venv\Scripts\activate
 </code></pre></div></p>
 <p>to deactivate
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>deactivate
@@ -751,13 +835,13 @@
         
         
           
-          <a href="../stm32-cubeprogrammer/" class="md-footer__link md-footer__link--next" aria-label="Next: STM32 cubeProgrammer" rel="next">
+          <a href="../python-PyQt-GUI/" class="md-footer__link md-footer__link--next" aria-label="Next: Python PyQt GUI" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                STM32 cubeProgrammer
+                Python PyQt GUI
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -852,10 +936,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.tracking", "content.tabs.link", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "navigation.tracking", "content.tabs.link", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>

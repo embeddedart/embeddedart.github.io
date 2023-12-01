@@ -551,6 +551,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#function-code-0x06" class="md-nav__link">
+    Function Code : 0x06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#baudrate-setting" class="md-nav__link">
+    Baudrate Setting:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-code-0x10" class="md-nav__link">
+    Function Code : 0x10
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -982,6 +1003,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#function-code-0x06" class="md-nav__link">
+    Function Code : 0x06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#baudrate-setting" class="md-nav__link">
+    Baudrate Setting:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-code-0x10" class="md-nav__link">
+    Function Code : 0x10
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1012,6 +1054,7 @@ This is a placeholder page that shows you how to use this template site.
 <li>Stopbits : 1</li>
 </ul>
 <hr />
+<h4 id="function-code-0x06">Function Code : 0x06</h4>
 <p>Use Function <strong>06 : Write Single Register</strong> to change below settings.</p>
 <table>
 <thead>
@@ -1025,16 +1068,26 @@ This is a placeholder page that shows you how to use this template site.
 <tr>
 <td style="text-align: center;">LED Module Count</td>
 <td style="text-align: center;">29</td>
-<td style="text-align: center;">1-9</td>
+<td style="text-align: center;">1-9 (auto save)</td>
+</tr>
+<tr>
+<td style="text-align: center;">X Offset</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">0 (must be zero)</td>
 </tr>
 <tr>
 <td style="text-align: center;">Protocol</td>
 <td style="text-align: center;">31</td>
-<td style="text-align: center;">EA = 0 <br> MODBUS = 1</td>
+<td style="text-align: center;">EA = 0 <br> MODBUS = 1 <br> (auto save)</td>
 </tr>
 <tr>
 <td style="text-align: center;">Firmware Version</td>
 <td style="text-align: center;">32</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Restart Controller</td>
+<td style="text-align: center;">33</td>
 <td style="text-align: center;">-</td>
 </tr>
 <tr>
@@ -1045,7 +1098,7 @@ This is a placeholder page that shows you how to use this template site.
 <tr>
 <td style="text-align: center;">Brightness</td>
 <td style="text-align: center;">36</td>
-<td style="text-align: center;">1-58</td>
+<td style="text-align: center;">TBD</td>
 </tr>
 <tr>
 <td style="text-align: center;">Baudrate</td>
@@ -1070,17 +1123,27 @@ This is a placeholder page that shows you how to use this template site.
 <tr>
 <td style="text-align: center;">Modbus Device ID</td>
 <td style="text-align: center;">41</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">- (auto save)</td>
 </tr>
 <tr>
 <td style="text-align: center;">Save Setting</td>
 <td style="text-align: center;">42</td>
 <td style="text-align: center;">1</td>
 </tr>
+<tr>
+<td style="text-align: center;">Reset Swtich Status</td>
+<td style="text-align: center;">43</td>
+<td style="text-align: center;">0 = switch pressed (read only)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Response Time</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">0 (must be zero)</td>
+</tr>
 </tbody>
 </table>
-<p>Baudrate Setting: <br> 
-0 = 300 <br> 
+<h4 id="baudrate-setting">Baudrate Setting:</h4>
+<p>0 = 300 <br> 
 1 = 600 <br> 
 2 = 1200 <br> 
 3 = 2400 <br> 
@@ -1098,6 +1161,7 @@ This is a placeholder page that shows you how to use this template site.
 other = 9600 <br> </p>
 <p>Note : Do not modify any other address value.</p>
 <hr />
+<h4 id="function-code-0x10">Function Code : 0x10</h4>
 <p>Use Function <strong>16 : Write Multiple Registers</strong> to write data on display</p>
 <p>Line 1 start adress = 1000<br />
 Line 2 start adress = 2000</p>

@@ -1009,7 +1009,7 @@ This is a placeholder page that shows you how to use this template site.
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    continuous on = connected to server
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    when blink = sending data to server
 </code></pre></div>
-<h1 id="mqtt-configuration-from-server-command">MQTT Configuration From Server Command :</h1>
+<h1 id="configuration-from-server-command">Configuration From Server Command :</h1>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>To test server communication with hardware
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Send : 
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>@@,test,##
@@ -1017,117 +1017,130 @@ This is a placeholder page that shows you how to use this template site.
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>@@,test ok,XX,##
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>  - XX = any number
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Time Sync Command : 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>To get some info about device
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Send : 
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>@@,timesync,##
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>Response :
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>@@,timesync ok,XX,##
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>@@,info,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Get Device Time (Real Time)
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Send : 
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>@@,gettime,##
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>set NTP Server and Timezone
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>@@,ntpserver,time.nist.gov,22,##
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>Get NTP Server and Timezone
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>@@,getntpserver,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>To read data from modbus device and this data will sent on server.
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>@@,txn no, txn flag, modbus id, function code, start add, qty, poll interval, txn timeout, txn retry count,##
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>Send :
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>@@,txn,0,1,1,3,0,10,3000,1000,1,##
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>Response :
-<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>@@,txn ok,XX,##
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Time Sync Command : 
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Send : 
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>@@,timesync,##
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>Response :
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>@@,timesync ok,XX,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>@@,txnendis,txn no., enable/disable,##
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>@@,txnendis,0,1,##
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Get Device Time (Real Time)
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Send : 
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>@@,gettime,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>To read txn setting :
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>To read data from modbus device and this data will sent on server.
 <a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>Example :
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>Send :
-<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>@@,gettxn,0,##
-<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    0 = txn no.
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>@@,txn no, txn flag, modbus id, function code, start add, qty, poll interval, txn timeout, txn retry count,##
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>Send :
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>@@,txn,0,1,1,3,0,10,3000,1000,1,##
 <a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>
 <a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>Response :
-<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>@@,txn,0,1,1,3,0,10,3000,1000,1,##
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>@@,txn ok,XX,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>To read all enabled txn setting :
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>@@,gettxnall,##
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>this will reply enabled txn setting
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>@@,txnendis,txn no., enable/disable,##
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>@@,txnendis,0,1,##
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>To send modbus function code 16 command :
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>To read txn setting :
 <a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
-<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>@@,fn16,modbus id, fn code, start add, qty,data 1, data 2, data 3,##
-<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
-<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>Example :
-<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>Send :
-<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>@@,fn16,1,16,0,3,1,2,3,##
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>Example :
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>Send :
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>@@,gettxn,0,##
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    0 = txn no.
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>Response :
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>@@,txn,0,1,1,3,0,10,3000,1000,1,##
 </code></pre></div>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>@@,comport,baud rate, data bits, parity, stop bits,##
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>To read all enabled txn setting :
 <a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>    parity : 0 = none
-<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>             1 = odd
-<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>             2 = even
-<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
-<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>@@,comport,115200,8,0,1,##
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>@@,gettxnall,##
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>this will reply enabled txn setting
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>get modbus communication setting :
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>To send modbus function code 16 command :
 <a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
-<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>@@,getcomport,##
-</code></pre></div></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>@@,getmqtt,##
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>@@,fn16,modbus id, fn code, start add, qty,data 1, data 2, data 3,##
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>Example :
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>Send :
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>@@,fn16,1,16,0,3,1,2,3,##
+</code></pre></div>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>@@,comport,baud rate, data bits, parity, stop bits,##
 <a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>@@,mqttport,1883,##
-<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
-<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>@@,mqttserver,broker.hivemq.com,##
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>    parity : 0 = none
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>             1 = odd
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>             2 = even
 <a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
-<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>@@,mqttuser,ea_test,##
-<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>
-<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>@@,mqttpass,ea_test,##
-<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
-<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>@@,mqtttopicpub,ea_pub,##
-<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>
-<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>@@,mqtttopicsub,ea_sub,##
-<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>
-<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>@@,mqttsave,##
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>@@,comport,115200,8,0,1,##
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>get modbus communication setting :
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>@@,getcomport,##
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>@@,getmqtt,##
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>@@,mqttport,1883,##
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>@@,mqttserver,broker.hivemq.com,##
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>@@,mqttuser,ea_test,##
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>@@,mqttpass,ea_test,##
+<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>
+<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>@@,mqtttopicpub,ea_pub,##
+<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>
+<a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>@@,mqtttopicsub,ea_sub,##
+<a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a>
+<a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a>@@,mqttsave,##
 </code></pre></div>
 <h1 id="sms-for-configuration">SMS for Configuration :</h1>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Get Admin Mobile Number : 
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>SMS 33                  
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Get Admin Mobile Number : 
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>SMS 33                  
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Add admin mobile number :
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>SMS 44 1 0123456789     admin mobile number add 1  
-<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>SMS 44 2 0123456789     admin mobile number add 2  
-<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>SMS 44 3 0123456789     admin mobile number add 3 
-<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
-<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>To admin mobile number add with password :
-<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>SMS 44 1 7048593237 xxxx
-<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>    xxxx = password
-</code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>To get MQTT related setting via SMS :
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>
-<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>44 10 Mqtt_Port
-<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>44 11 MQTT_server_IP
-<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>44 12 MQTT_user_name
-<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>44 13 MQTT_Password
-<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>44 14 MQTT_publish_topic
-<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>44 15 MQTT_subscribe_topic
-<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>44 20 reconnect_to_mqtt_server
-</code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Set MQTT setting using SMS :
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Add admin mobile number :
 <a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>
-<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>44 10 port_number
-<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>44 11 server_ip
-<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>44 12 user_name
-<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>44 13 password
-<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>44 15 subscriber_topic
-<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>44 14 publish_topic
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>SMS 44 1 0123456789     admin mobile number add 1  
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>SMS 44 2 0123456789     admin mobile number add 2  
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>SMS 44 3 0123456789     admin mobile number add 3 
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>To admin mobile number add with password :
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>SMS 44 1 7048593237 xxxx
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>    xxxx = password
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>NTP Time Server (SMS):
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>To get device setting via SMS :
 <a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>44 16 time.nist.gov
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>44 10 Mqtt_Port
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>44 11 MQTT_server_IP
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>44 12 MQTT_user_name
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>44 13 MQTT_Password
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>44 14 MQTT_publish_topic
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>44 15 MQTT_subscribe_topic
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>44 16 NTP Server
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>44 20 reconnect_to_mqtt_server
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>Set MQTT setting using SMS :
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>44 10 port_number
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>44 11 server_ip
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>44 12 user_name
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>44 13 password
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>44 15 subscriber_topic
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>44 14 publish_topic
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>NTP Time Server (SMS):
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>44 16 time.nist.gov
 </code></pre></div>
 
 
